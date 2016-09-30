@@ -1,0 +1,150 @@
+2016-09-27 14:00:59,543 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:00:59,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:01:39,460 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for warn cookie generator to: /cas/ 
+2016-09-27 14:01:39,460 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for warn cookie generator to: /cas/ 
+2016-09-27 14:01:39,460 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for TGC cookie generator to: /cas/ 
+2016-09-27 14:01:39,460 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for TGC cookie generator to: /cas/ 
+2016-09-27 14:01:47,340 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - QueryDatabaseAuthenticationHandler successfully authenticated user1
+2016-09-27 14:01:47,344 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated user1 with credentials [user1].
+2016-09-27 14:01:47,346 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: supplied credentials: [user1]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,346 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: supplied credentials: [user1]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,351 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: TGT-1-NK6f3l2fgpZF6WchlEaUSdfe6Pd36wW2UYumOyoy1uTLLpuhX7-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,351 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: TGT-1-NK6f3l2fgpZF6WchlEaUSdfe6Pd36wW2UYumOyoy1uTLLpuhX7-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,601 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - QueryDatabaseAuthenticationHandler successfully authenticated user1
+2016-09-27 14:01:47,601 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated user1 with credentials [user1].
+2016-09-27 14:01:47,602 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: supplied credentials: [user1]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,602 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: supplied credentials: [user1]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,637 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted ticket [ST-1-bUBh7foVtdTEhiMT2cqC-cas01.example.org] for service [https://localhost:8443/admin/users/list] for user [user1]
+2016-09-27 14:01:47,638 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: ST-1-bUBh7foVtdTEhiMT2cqC-cas01.example.org for https://localhost:8443/admin/users/list
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,638 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: user1
+WHAT: ST-1-bUBh7foVtdTEhiMT2cqC-cas01.example.org for https://localhost:8443/admin/users/list
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,684 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-bUBh7foVtdTEhiMT2cqC-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:01:47,684 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: ST-1-bUBh7foVtdTEhiMT2cqC-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Tue Sep 27 14:01:47 IST 2016
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2016-09-27 14:02:59,544 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:02:59,551 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:04:59,544 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:04:59,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:06:59,544 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:06:59,546 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:08:59,543 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:08:59,545 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:10:59,543 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:10:59,548 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:12:59,543 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:12:59,546 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:14:59,543 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:14:59,545 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:16:59,544 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:16:59,550 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:18:59,544 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-09-27 14:18:59,548 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-09-27 14:20:33,921 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler

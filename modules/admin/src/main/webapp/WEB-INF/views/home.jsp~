@@ -1,0 +1,139 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!--include common CSS, fonts and js-->
+  <%--<link rel="import" href="adminTop.html">--%>
+  <jsp:include page="adminTop.jsp"/>
+
+
+</head>
+<body>
+<jsp:include page="header.jsp"/>
+
+<div class="home-title">Control Panel</div>
+<div class="address-bar">3481 Pizza Shefu | Ward Place, Colombo 07 | 123.456.7890</div>
+
+<center>
+  <div class="container">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Item Management</a>
+          </h2>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse ">
+          <div class="panel-body">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="viewItem.html" class="panel-sub-menu1">View Item</a>
+              </li>
+              <li>
+                <a href="addItem.html" class="panel-sub-menu1">Add Item</a>
+              </li>
+              <li>
+                <a href="editItem.html" class="panel-sub-menu1">Edit Item</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Package Management</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="viewPackage.html" class="panel-sub-menu1">View Package</a>
+              </li>
+              <li>
+                <a href="addPackage.html" class="panel-sub-menu1">Add Package</a>
+              </li>
+              <li>
+                <a href="editPckgPage.html" class="panel-sub-menu1">Edit Package</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Category Management</a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="add_category.html" class="panel-sub-menu2">Add Category</a>
+              </li>
+              <li>
+                <a href="view_categories.html" class="panel-sub-menu2">View Category</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">User Management</a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="userAdd.html" class="panel-sub-menu1">Add Users</a>
+              </li>
+              <li>
+                <a href="usersView.html" class="panel-sub-menu1">View Users</a>
+              </li>
+              <li>
+                <a href="usersBanned.html" class="panel-sub-menu1">Blocked Users</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Notifications Management</a>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="pendingcomments.html" class="panel-sub-menu2">Pending Comments</a>
+              </li>
+              <li>
+                <a href="pendingrating.html" class="panel-sub-menu2">Pending Ratings</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</center>
+</body>
+</html>

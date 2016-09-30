@@ -1,0 +1,41 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+
+    <bean id="productionDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="description" value="integration_ds"/>
+        <!-- configuration pool via c3p0-->
+        <property name="acquireIncrement" value="${datasource.acquireIncrement}"/>
+        <property name="idleConnectionTestPeriod" value="${datasource.idleConnectionTestPeriod}"/>
+        <!-- seconds -->
+        <property name="maxPoolSize" value="${datasource.maxPoolSize}"/>
+        <property name="maxStatements" value="${datasource.maxStatements}"/>
+        <property name="minPoolSize" value="${datasource.minPoolSize}"/>
+        <property name="initialPoolSize" value="${datasource.initialPoolSize}"/>
+        <property name="maxIdleTime" value="${datasource.maxIdleTime}"/>
+        <property name="acquireRetryAttempts" value="${datasource.acquireRetryAttempts}"/>
+        <property name="acquireRetryDelay" value="${datasource.acquireRetryDelay}"/>
+        <property name="breakAfterAcquireFailure" value="${datasource.breakAfterAcquireFailure}"/>
+        <property name="connectionTesterClassName" value="com.mchange.v2.c3p0.impl.DefaultConnectionTester"/>
+        <property name="preferredTestQuery" value="SELECT 1" />
+        <property name="unreturnedConnectionTimeout" value="10000"/>
+
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
+          p:dataSource-ref="productionDataSource"/>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="productionDataSource"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+</beans>

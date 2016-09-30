@@ -1,0 +1,80 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1023" measuredH="528" mockupW="773" mockupH="471">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="250" y="57" w="529" h="471" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20Category%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="369" y="391" w="-1" h="-1" measuredW="122" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>category_add_success%26bm%3Bcategory_add_success.bmml%26bm%3Bcategory_add_success.bmml%26bm%3Bcategory_add_success.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22119%2C334%2C241%2C361%22%20href%3D%22category_add_success.bmml%22%20alt%3D%22category_add_success%22%20id%3D%221%22/%3E</map>
+        <text>Submit%20Category</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="369" y="168" w="105" h="-1" measuredW="104" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Category%20Id%20%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="554" y="170" w="-1" h="-1" measuredW="41" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PZ007</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="341" y="211" w="-1" h="-1" measuredW="133" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Category%20Name%20%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Canvas" x="302" y="141" w="424" h="338" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderStyle>roundedSolid</borderStyle>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="506" y="207" w="204" h="32" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="578" y="391" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>admin%26bm%3Badmin.bmml%26bm%3Badmin.bmml%26bm%3Badmin.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22328%2C334%2C392%2C361%22%20href%3D%22admin.bmml%22%20alt%3D%22admin%22%20id%3D%229%22/%3E</map>
+        <text>Cancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::StickyNote" x="814" y="152" w="209" h="179" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>By%20default%20%22sub%20category%22%20and%20%22choose%20category%22%20select%20boxes%20are%20inactive.%0AIf%20user%20want%20to%20add%20a%20sub%20category%2C%20he%20need%20to%20tick%20sub%20category.%20Then%20%22Category%20Name%22%20will%20inactive%20and%20%22Choose%20Category%22%20and%20%22Sub%20Category%22%20will%20active.</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::ComboBox" x="506" y="265" w="202" h="-1" measuredW="64" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>-Pizza-</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="326" y="265" w="-1" h="-1" measuredW="141" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Choose%20Category%20%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::CheckBox" x="341" y="320" w="-1" h="-1" measuredW="130" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Sub%20category%20%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="506" y="314" w="200" h="37" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

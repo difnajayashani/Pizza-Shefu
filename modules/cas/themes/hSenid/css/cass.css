@@ -1,0 +1,100 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url('../images/cover.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.9;
+}
+.home-title {
+    display: inherit;
+    margin: 0;
+    padding: 30px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: normal;
+    color: #045406;
+}
+.address-bar {
+    display: inherit;
+    margin: 0;
+    padding: 0 0 40px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(175,212, 46);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(6, 6, 0);
+}
+#login{
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+    border: 5px solid rgb(28, 99, 24);
+    border-radius: 15px;
+    background: rgb(189, 212, 184) none repeat scroll 0% 0%;
+}
+h2{
+    font-size: 13pt;
+}
+#row1>label, #row2 > label{
+    font-size: 16px;
+    float: left;
+    width: 190px;
+    text-align: left;
+    color: #1C6319;
+    font-weight: bold;
+    margin: 0 50px 0 50px;
+    padding: 0;
+    margin-left: 100px;
+}
+#row1{
+    padding-bottom: 10px;
+}
+#row2{
+    padding-bottom: 25px;
+}
+footer{
+    padding-top:100px ;
+    text-align: center;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: bold;
+}
+.btn-row{
+    padding-left: 40%;
+}
+.login-pg-button{
+    height: 25px;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 14px;
+    border: 2px solid #316f29;
+    background-color: white;
+    font-weight: bold;
+    color: #266620;
+}
+#footer-sub-msg{
+    font-size: smaller;
+}
+.errors{
+    display: inline;
+    font-size: small;
+    color: rgb(255, 0, 0);
+    font-style: oblique;
+    font-weight: bold;
+    padding: inherit;
+}
+#content{
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+    border: 5px solid rgb(28, 99, 24);
+    border-radius: 15px;
+    background: rgb(189, 212, 184) none repeat scroll 0% 0%;
+}

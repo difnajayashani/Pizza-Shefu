@@ -1,0 +1,68 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1626" measuredH="595" mockupW="802" mockupH="319">
+  <controls>
+    <control controlID="13" controlTypeID="__group__" x="824" y="276" w="802" h="319" measuredW="802" measuredH="319" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-panel-primary</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="538" h="319" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="13">
+          <controlProperties>
+            <align>left</align>
+            <shape>roundRect</shape>
+            <size>14</size>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="4" w="538" h="57" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="13">
+          <controlProperties>
+            <align>left</align>
+            <color>2848996</color>
+            <shape>roundRect</shape>
+            <size>14</size>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="10" y="15" w="-1" h="-1" measuredW="282" measuredH="36" zOrder="2" locked="false" isInGroup="13">
+          <controlProperties>
+            <bold>true</bold>
+            <color>16777215</color>
+            <size>28</size>
+            <text>Proceed%20to%20Checkout</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="41" y="131" w="456" h="44" measuredW="139" measuredH="27" zOrder="3" locked="false" isInGroup="13">
+          <controlProperties>
+            <href>login%26bm%3Blogin.bmml%26bm%3Blogin.bmml%26bm%3Blogin.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2241%2C131%2C497%2C175%22%20href%3D%22login.bmml%22%20alt%3D%22login%22%20id%3D%223%22/%3E</map>
+            <text>Login%20to%20the%20system</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="41" y="190" w="456" h="44" measuredW="133" measuredH="27" zOrder="4" locked="false" isInGroup="13">
+          <controlProperties>
+            <href>signup%26bm%3Bsignup.bmml%26bm%3Bsignup.bmml%26bm%3Bsignup.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2241%2C190%2C497%2C234%22%20href%3D%22signup.bmml%22%20alt%3D%22signup%22%20id%3D%224%22/%3E</map>
+            <text>Create%20an%20account</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="41" y="249" w="456" h="44" measuredW="143" measuredH="27" zOrder="5" locked="false" isInGroup="13">
+          <controlProperties>
+            <href>shopping_cart_delivery_guest%26bm%3Bshopping_cart_delivery_guest.bmml%26bm%3Bshopping_cart_delivery_guest.bmml%26bm%3Bshopping_cart_delivery_guest.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2241%2C249%2C497%2C293%22%20href%3D%22shopping_cart_delivery_guest.bmml%22%20alt%3D%22shopping_cart_delivery_guest%22%20id%3D%225%22/%3E</map>
+            <text>Continue%20as%20a%20guest</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="22" y="84" w="-1" h="-1" measuredW="495" measuredH="28" zOrder="6" locked="false" isInGroup="13">
+          <controlProperties>
+            <size>20</size>
+            <text>Login/register%20or%20continue%20as%20a%20guest%20for%20the%20checkout.</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::StickyNote" x="578" y="18" w="224" h="123" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="13">
+          <controlProperties>
+            <text>Popup%20message%20to%20appear%20when%20user%20tried%20to%20checkout%20without%20logging%20in.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

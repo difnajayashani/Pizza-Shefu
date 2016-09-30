@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <title>View Package</title>
+
+    <!--include common CSS, fonts and js-->
+    <link rel="import" href="adminTop.html">
+
+    <link href="../css/itemMgt.css" rel="stylesheet">
+    <script src="../js/jquery.toaster.js"></script>
+    <script src="../js/itemMgt.js"></script>
+    <script src="../js/tablePackges.js"></script>
+    <script src="../js/myAlerts.js"></script>
+
+</head>
+
+<body>
+
+<object width="100%" data="header.html"></object>
+
+<div class="brand">
+    <div style="position: relative; left: -50%;">
+        Package Management
+    </div>
+</div>
+<br>
+
+<div class="breadcrumbPosition">
+    <div style="position: relative; left: -50%;">
+        <ul class="breadcrumb breadcrumb-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Package Management</a></li>
+            <li class="active"><a href="#">View Package</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="form-box" id="view-pkg-form-box">
+    <div class="panel panel-default">
+        <div class="panel-heading  common-form-headings">
+            <h3 class="default-panel-headings">View Package</h3>
+        </div>
+
+        <div class="panel-body">
+
+            <div class="row itemSearchBar">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <label class="control-label" style="float: right;">
+                        Package Name :
+                    </label>
+
+                </div>
+                <div class="col-sm-4">
+                    <input class="form-control" id="txtViewSearchPkg" type="text">
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-success" id="btnViewSearchPkg"><span
+                            class="glyphicon glyphicon-search"></span> Search
+                    </button>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <br>
+
+            <form class="form-horizontal" role="form" id="frmViewPkg">
+                <fieldset class="scheduler-border">
+                    <legend class="scheduler-border">Available Packages</legend>
+
+                    <!--table of package details-->
+                    <table id="tblPackages">
+
+                    </table>
+
+                </fieldset>
+
+                <br>
+
+                <div class="row" align="left">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <button type="button" class="btn btn-success bckToHome" id="btnViewPkgBack"><span
+                                class="glyphicon glyphicon-chevron-left"></span> Back to home
+                        </button>
+                    </div>
+                </div>
+                <br>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<!--Modal for delete package-->
+<div class="modal fade" id="pkgDeleteModal">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header item-modal-header-style">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span
+                        class="glyphicon glyphicon-remove"></span></button>
+                <div align="center"><span class="glyphicon glyphicon-trash"></span> Delete Package
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label id="lblDeltPkgMsg">Do you really want to delete this Package ?</label><br><br>
+
+                    <div align="center">
+                        <label id="lblDeltPkgId">Package ID : xxxxxx </label><br>
+                        <label id="lblDeltPkgName">Pacakge Name : yyyyyy </label><br>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" align="right">
+                <button class="btn btn-success" type="button" value="Yes" id="btnDeltPkg">Yes
+                </button>
+                <button class="btn btn-success" type="button" value="cancel" id="btnCnclDeltPkg">
+                    No
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Modal for edit package-->
+<div class="modal fade" id="pkgEditModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header item-modal-header-style">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span
+                        class="glyphicon glyphicon-remove"></span></button>
+                <div align="center"><span class="glyphicon glyphicon-pencil"></span> Edit Package
+                </div>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal" role="form" id="frmEditPkg">
+                    <fieldset class="scheduler-border">
+                        <legend class="scheduler-border">(*) Edit relevant fields</legend>
+
+                        <div class="form-group">
+
+                            <div class="row">
+                                <div class="col-xs-4" align="right">
+                                    <label id="lblEditPkgId">Package ID : * </label>
+                                </div>
+                                <div class="col-xs-5">
+                                    <input type="text" id="txtEditPkgId" class="form-control" readonly>
+                                </div>
+                                <div class="col-xs-3" align="center">
+                                </div>
+                            </div>
+                            <br>
+
+                            <div class="row">
+                                <div class="col-xs-4" align="right">
+                                    <label id="lblEditPkgNm">Package Name : </label>
+                                </div>
+                                <div class="col-xs-5">
+                                    <input class="form-control" type="text" id="txtEditPkgNm">
+                                </div>
+                                <div class="col-xs-3">
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div class="row">
+                                <div class="col-xs-4" align="right">
+                                    <label>Package Content : </label>
+                                </div>
+                                <div class="col-xs-5">
+                                    <textarea class="form-control" id="editPkgCont"></textarea>
+                                </div>
+                                <div class="col-xs-3" align="left">
+                                    <label id="lblEditPkgCont" onclick=""> <span
+                                            class="badge edit-pkg-Badges edt glyphicon glyphicon-edit"><a href="#" id="lnkModalView"> Edit</a></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div class="row">
+                                <div class="col-xs-4" align="right">
+                                    <label> Package Images : </label>
+                                </div>
+                                <div class="col-xs-5">
+                            <div class="list-group row" style="margin:auto; padding: 5px;">
+
+                                <ul class="list-group">
+                                    <li class="list-group-item">image 1.png
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                                    </li>
+                                    <li class="list-group-item">image 1.png
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                                    </li>
+                                    <li class="list-group-item">image 1.png
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                                    </li>
+
+                                    <li class="list-group-item">&nbsp;
+                                <span class="badge">
+                                  <div class="edit-pkg-Badges">
+                                    <span class="glyphicon glyphicon-plus">
+                                    </span> <a href="">Add New</a>
+                                  </div>
+                                </span>
+                                    </li>
+                                </ul>
+                            </div>
+</div>
+                            <br>
+
+                            <div class="row">
+                                <div class="col-xs-4" align="right">
+                                    <label>Package Price : </label>
+                                </div>
+                                <div class="col-xs-5">
+                                    <input type="text" class="form-control price" id="editPkgPrice" placeholder="LKR 0.00">
+                                </div>
+                                <div class="col-xs-3" align="center">
+                                </div>
+                            </div>
+
+                        </div>
+                            </div>
+                    </fieldset>
+                </form>
+
+            </div>
+            <div style="text-align: center; z-index: 50000; width: 50%; margin: auto;" id="toaster"></div>
+            <div class="modal-footer" align="right">
+                <button class="btn btn-success" type="button" value="Yes" id="btnUpdtPkgDelt">Update package details
+                </button>
+                <button class="btn btn-success" type="button" value="cancel" id="btnPkgBack">Back
+                </button>
+                <button class="btn btn-success" type="button" value="cancel" id="btnPkgCancel">Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Modal for edit package content -->
+<div class="modal fade" id="pkgViewModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span
+                        class="glyphicon glyphicon-remove"></span></button>
+                <br>
+
+                <div id="editModalContent">
+
+                </div>
+
+            </div>
+
+            <div class="modal-footer" align="right">
+                <button class="btn btn-success" type="button" value="Yes" id="btnSvEditPkgCont">Save edits
+                </button>
+                <button class="btn btn-success" type="button" value="cancel">Back
+                </button>
+                <button class="btn btn-success" type="button" value="clear">Clear
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

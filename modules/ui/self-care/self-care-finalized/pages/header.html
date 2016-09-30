@@ -1,0 +1,337 @@
+<link href="../bootstrap-3.3.7/css/bootstrap.min_spacelab.css" rel="stylesheet"
+      integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous">
+<link href="../css/homeStyle.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+
+<!-------Header------------------------------------->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="col-sm-4"><a href="self-care-home.html"> <img
+                src="../images/logo.png"
+                style="width:75px;height:65px;"></a></div>
+
+        <div style="padding: 10px"></div>
+        <div>
+
+        </div>
+        <div class="col-sm-8">
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li class="active"><a href="#">Home</a></li>-->
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="../pages/locations.html">Locations</a></li>
+                <li><a href="../pages/createfeedback.html">Feedbacks</a></li>
+                <li><a href="../pages/contactus.html">Contact Us</a></li>
+                <li><a href="../pages/aboutus.html">About us</a></li>
+                <li>
+
+                    <a href="shopping-cart.html"><span class="glyphicon glyphicon-shopping-cart"
+                                                       style="padding-right:0px;padding-left:30px;color: #22697d"></span></a>
+                </li>
+
+                <li>
+                    <a data-toggle="modal" data-target="#modal-signup" style="padding-left: 3px">Sign
+                        Up
+                    </a>
+                </li>
+
+                <li>
+                    <a data-toggle="modal" data-target="#modal-login" style="tab-size: 10px;padding-left: 3px">Log
+                        In
+                    </a>
+
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!--------------------------------login modal----------------------------->
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true"
+     style="width: 1500px;height: 700px;background-position: center">
+    <!--
+        <div class="modal-dialog" style="">
+    -->
+    <!--<div class="modal-content" >-->
+    <!--<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&amp;times;</button>
+        <h4 class="modal-title" id="myModalLabel">LOG IN</h4>
+    </div>-->
+    <div class="modal-body" style="width: 1500px;height: 700px;vertical-align: middle;">
+
+        <div class="wrap">
+
+            <!-- strat-contact-form -->
+            <div class="contact-form">
+                <div class="col-sm-11"></div>
+                <div class="col-sm-1">
+                    <button data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+
+                <!-- start-form -->
+
+                <form class="contact_form" action="#" method="post" name="contact_form">
+
+                    <h1>Login Into Your Account</h1>
+                    <ul>
+                        <li>
+                            <input type="email" class="textbox1" name="email" placeholder="username" required/>
+                            <span class="form_hint">Enter a valid email</span>
+
+                            <p><img src="../images/contact.png" alt=""></p>
+                        </li>
+                        <li>
+                            <input type="password" name="website" class="textbox2" placeholder="password">
+
+                            <p><img src="../images/lock.png" alt=""></p>
+                        </li>
+                    </ul>
+                    <input type="submit" name="Sign In" value="Sign In"/>
+
+                    <div class="clear"></div>
+                    <label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>Remember
+                        me</label>
+
+                    <div class="forgot">
+                        <a href="../pages/forgotpassword.html">forgot password?</a>
+                    </div>
+                    <div class="clear"></div>
+                </form>
+                <!-- end-form -->
+
+                <!-- start-account -->
+                <div class="account">
+                    <div class="row">
+                        <div class="col-sm-10">
+                            <h2><a href="../pages/register.html">Don' have an account?</a></h2>
+                        </div>
+
+                    </div>
+
+                    <div class="span"><a href="#"><img src="../images/facebook.png" alt=""/><i>Sign In with
+                        Facebook</i>
+
+                        <div class="clear"></div>
+                    </a></div>
+                    <div class="span1"><a href="#"><img src="../images/twitter.png" alt=""/><i>Sign In with
+                        Twitter</i>
+
+                        <div class="clear"></div>
+                    </a></div>
+                    <div class="span2"><a href="#"><img src="../images/gplus.png" alt=""/><i>Sign In with
+                        Google+</i>
+
+                        <div class="clear"></div>
+                    </a></div>
+                </div>
+
+                <!-- end-account -->
+                <div class="clear"></div>
+            </div>
+            <!-- end-contact-form -->
+            <div class="footer">
+                <p></p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     </div>-->
+</div>
+<!--
+</div>
+-->
+<!--</div>-->
+<!------------------------------signup modal --------------------------------------------->
+<div class="modal fade" id="modal-signup" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true"
+     style="width: 1200px;height: 700px;">
+    <!--<div class="modal-dialog">-->
+    <div class="modal-body" style="width: 1500px;height: 700px;">
+        <div class="brand"></div>
+        <center>
+            <div class="inner-bg">
+                <div class="container">
+                    <!--<div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+
+                        </div>
+                    </div>-->
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading" style="height: 50px">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <p style="font-size: xx-large;text-align: left">Create New Account</p>
+                                </div>
+                                <div class="col-sm-5">
+                                </div>
+                                <div class="col-sm-3">
+                                    <button data-dismiss="modal" aria-hidden="true">&times;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form" id="adduser_form" action="" method="post"
+                                  class="form-horizontal">
+
+                                <!--
+                                                                    <p style="font-weight: bold;font-size: larger">Create New Account</p>
+                                -->
+
+                                <div class="form-group">
+
+                                    <label class="col-sm-2 control-label">
+                                        Title
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio">Mr
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio">Mrs
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio">Miss
+                                        </label>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label class="col-sm-2 control-label">
+                                        Name
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="fname" type="text"
+                                               placeholder="First Name*">
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="lname" type="text" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+
+                                    <label class="col-sm-2 control-label">
+                                        Address
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="address1" type="text" placeholder="Line1*">
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="address2" type="text" placeholder="Line2*">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label class="col-sm-2 control-label">
+                                        City
+                                    </label>
+
+                                    <div class="col-sm-2">
+                                        <!-- <select name="city">
+                                             <option>Select Your Nearest City</option>
+                                         </select>-->
+                                        <div class="dropdown">
+                                            <!--<button class="btn dropdown-toggle" type="button" id="menu1"
+                                                    data-toggle="dropdown">Select Nearest City
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Nugegoda</a>
+                                                </li>
+                                            </ul>-->
+                                            <select class="form-control">
+                                                <option value="nesrest">select nearest</option>
+                                                <option value="col7">Colombo 7</option>
+                                                <option value="nug">Nugegoda</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <label class="col-sm-4 control-label">
+                                        Date Of Birth
+                                    </label>
+
+                                    <div class='col-sm-2'>
+                                        <input class="form-control" id="dob" type="text" placeholder="22/08/2016">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobileNo" class="col-sm-2 control-label">
+                                        Phone No
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="mobileNo" type="text"
+                                               placeholder="+94-XXXXXXXXXX">
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">
+                                        E-Mail
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="email" type="text"
+                                               placeholder="example@domain.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="username" class="col-sm-2 control-label">
+                                        Username
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="username" type="text"
+                                               placeholder="username">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-sm-2 control-label">
+                                        Password
+                                    </label>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="password" type="text"
+                                               placeholder="password">
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <input class="form-control" id="rePassword" type="text"
+                                               placeholder="Re-Enter Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-success">Create Account</button>
+                                </div>
+                                <div class="form-group">
+                                    <a href="login.html">Already Have An Account ?</a>
+                                </div>
+
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </center>
+
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>

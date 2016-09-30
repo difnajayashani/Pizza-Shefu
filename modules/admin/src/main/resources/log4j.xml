@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <RollingFile name="FILE_TRACE" fileName="${RWD_LOG_ROOT}/trace_loggers/trace.log"
+                     filePattern="${RWD_LOG_ROOT}/logs/trace_loggers/trace-%d{MM-dd-yyyy}-%i.log.">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n"/>
+
+            <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="2"/>
+        </RollingFile>
+
+        <RollingFile name="FILE_ERROR" fileName="${RWD_LOG_ROOT}/error_loggers/error.log"
+                     filePattern="${RWD_LOG_ROOT}/error_loggers/error-%d{MM-dd-yyyy}-%i.log.">
+
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n"/>
+
+
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="30 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="2"/>
+        </RollingFile>
+
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="all">
+            <AppenderRef ref="STDOUT" level="trace"/>
+            <AppenderRef ref="FILE_ERROR" level="error"/>
+            <AppenderRef ref="FILE_TRACE" level="trace"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

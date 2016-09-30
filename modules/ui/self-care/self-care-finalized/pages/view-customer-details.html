@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+        <html>
+<head>
+<link href="../bootstrap-3.3.7/css/bootstrap.min_spacelab.css" rel="stylesheet"
+      integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous">
+
+<link href="../css/homeStyle.css" rel="stylesheet" type="text/css">
+<link href="../css/footer.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="../js/jquery.min.js"></script>
+<link href="../css/css" rel="stylesheet" type="text/css">
+<link href="../css/scroll_top.css" rel="stylesheet" type="text/css">
+<link href="../css/loader.css" rel="stylesheet">
+<div class="loader-anim"></div>
+</head>
+
+<body style="overflow: visible"  >
+<div w3-include-html="header.html"></div>
+
+<div class="brand"></div>
+<center>
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+
+                </div>
+            </div>
+
+
+            <p style="font-size: xx-large;text-align: left;color: #f5f5f5">My Details</p>
+            <div class="col-sm-12" style="height: 40px"></div>
+            <div class="row">
+                <div class="col-sm-9">
+                    <form role="form" id="adduser_form" action="" method="post" class="form-horizontal" style="width: 800px">
+
+                        <fieldset style="border: groove;width: 700px;color: #985f0d">
+
+
+                            <div style="height: 30px"></div>
+                            <div class="form-group">
+
+                                <label  class="col-sm-2 control-label datalabel">
+                                    Name
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control detailinput" id="fname" type="text" disabled>
+                                </div>
+
+
+                            </div>
+                            <div class="form-group">
+
+                                <label  class="col-sm-2 control-label datalabel">
+                                    Address
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <textarea class="form-control detailinput" id="address1" type="text" placeholder="" disabled></textarea>
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-group">
+
+
+                                <label class="col-sm-2 control-label datalabel">
+                                    Date Of Birth
+                                </label>
+
+                                <div class='col-sm-4'>
+                                    <input class="form-control detailinput" id="dob" type="text" disabled >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobileNo" class="col-sm-2 control-label datalabel">
+                                    Phone No
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control detailinput" id="mobileNo" type="text" disabled>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label datalabel">
+                                    E-Mail
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control detailinput" id="email" type="text" disabled>
+                                </div>
+                            </div>
+                            <div style="height: 20px"></div>
+
+                        </fieldset>
+
+
+                    </form>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-12" style="height: 45px"></div>
+
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg btn-info" >Edit Details</button>
+                    </div>
+                    <div class="col-sm-12" style="height: 45px"></div>
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#passwordModal" >Reset Password</button>
+                    </div>
+                    <div class="col-sm-12" style="height: 45px"></div>
+
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg btn-primary">Cart History</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a href="http://gazpo.com/downloads/tutorials/jquery/scrolltop/#" class="scrollup" style="display: none;">Scroll</a>
+
+</center>
+
+</body>
+<div w3-include-html="footer.html"></div>
+
+<script src="../js/w3data.js"></script>
+<script>
+    w3IncludeHTML();
+</script>
+<!-------------------------------------- Modal--------------------------------- -->
+<div id="passwordModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header"style="background-color: #99b176">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="color:#ffffff;font-size: x-large">Change Password</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel-body">
+                    <form role="form"  action="" method="post" class="form-horizontal">
+
+                        <div class="form-group">
+
+                            <label class="col-sm-4 control-label">
+                                New Password
+                            </label>
+
+                            <div class="col-sm-6">
+                                <input class="form-control" id="passnew" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <label class="col-sm-4 control-label">
+                                Re-Enter Password
+                            </label>
+
+                            <div class="col-sm-6">
+                                <input class="form-control" id="repwd" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-sm-5"></div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">Change Password</button>
+                        </div>
+
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</html>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/scroll_top.js"></script>
+<script src="../js/loader.js"></script>

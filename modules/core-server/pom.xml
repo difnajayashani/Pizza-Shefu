@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>hsenid</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>core-server</artifactId>
+    <packaging>jar</packaging>
+
+    <!-- Define a location to save configuration files. -->
+    <properties>
+        <configurations.path>../generated-resources/appassembler/jsw/core-server/etc</configurations.path>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>hsenid</groupId>
+            <artifactId>core-logic</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>tanukisoft</groupId>
+            <artifactId>wrapper</artifactId>
+            <version>${tanukisoft-wrapper.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/c3p0/c3p0 -->
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.3.10.v20160621</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-webapp -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>9.3.10.v20160621</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-server</artifactId>
+            <version>1.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>1.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.jaxrs</groupId>
+            <artifactId>jackson-jaxrs-json-provider</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.2.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>4.2.6.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <!-- Source files location. -->
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <!-- Test source files location. -->
+        <testSourceDirectory>src/test/frisby</testSourceDirectory>
+
+        <!-- Copy resources to the configuration directory defined above. -->
+        <resources>
+            <!-- Resources used in core-server module. -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <targetPath>${configurations.path}</targetPath>
+            </resource>
+
+            <!--Resources used in core-logic module.-->
+            <resource>
+                <directory>../core-logic/src/main/resources</directory>
+                <targetPath>${configurations.path}</targetPath>
+                <includes>
+                    <include>session-factory-config.xml</include>
+                    <!--<include>spring-user.xml</include>-->
+                </includes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <!-- Appassembler plugin. -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>appassembler-maven-plugin</artifactId>
+                <version>1.10</version>
+                <configuration>
+                    <!-- Define the layout. Default is 'default'. -->
+                    <repositoryLayout>flat</repositoryLayout>
+                    <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
+                    <target>${project.build.directory}</target>
+                    <daemons>
+                        <daemon>
+                            <id>core-server</id>
+                            <!-- Main class of the program. -->
+                            <mainClass>hsl.devspace.app.coreserver.common.ServerMain</mainClass>
+
+                            <!-- Commandline arguments to perform tasks. -->
+                            <commandLineArguments>
+                                <commandLineArgument>start</commandLineArgument>
+                            </commandLineArguments>
+
+                            <!-- Define the platform to support.
+                            jsw: Java Service Wrapper. -->
+                            <platforms>
+                                <platform>jsw</platform>
+                            </platforms>
+
+                            <!-- Define the platforms needed to be support. -->
+                            <generatorConfigurations>
+                                <generatorConfiguration>
+                                    <generator>jsw</generator>
+                                    <!-- Platforms. -->
+                                    <includes>
+                                        <include>linux-x86-32</include>
+                                        <include>windows-x86-32</include>
+                                        <include>linux-x86-64</include>
+                                        <include>windows-x86-64</include>
+                                    </includes>
+
+                                    <!-- wrapper.conf configurations. -->
+                                    <configuration>
+                                        <!-- Define java main class. -->
+                                        <property>
+                                            <name>wrapper.java.mainclass</name>
+                                            <value>hsl.devspace.app.coreserver.common.ServerMain</value>
+                                        </property>
+                                        <!-- Define the directory contains the configurations. -->
+                                        <property>
+                                            <name>configuration.directory.in.classpath.first</name>
+                                            <value>etc</value>
+                                        </property>
+                                        <!-- Define the directory contains library files. -->
+                                        <property>
+                                            <name>set.default.REPO_DIR</name>
+                                            <value>lib</value>
+                                        </property>
+                                        <!-- Define the file to save logs related to wrapper. -->
+                                        <property>
+                                            <name>wrapper.logfile</name>
+                                            <value>logs/wrapper.log</value>
+                                        </property>
+                                        <!-- Initial memory size for JVM in Megabytes. -->
+                                        <property>
+                                            <name>wrapper.java.initmemory</name>
+                                            <value>256</value>
+                                        </property>
+                                        <!-- Maximum memory size for JVM in Megabytes. -->
+                                        <property>
+                                            <name>wrapper.java.maxmemory</name>
+                                            <value>1024</value>
+                                        </property>
+                                        <!--
+                                            Configure the appearance of console logs.
+                                            'L':log level
+                                            'P':prefix
+                                            'Z':millisecond time
+                                            'M':for message
+                                        -->
+                                        <property>
+                                            <name>wrapper.console.format</name>
+                                            <value>LPZM</value>
+                                        </property>
+                                        <property>
+                                            <name>wrapper.startup.timeout</name>
+                                            <value>0</value>
+                                        </property>
+                                    </configuration>
+                                </generatorConfiguration>
+                            </generatorConfigurations>
+                        </daemon>
+                    </daemons>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>generate-jsw-scripts</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>generate-daemons</goal>
+                            <goal>create-repository</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Maven Assembly plugin. -->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>make-tar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <!-- Assemble an application bundle or distribution. -->
+                            <goal>single</goal>
+                        </goals>
+
+                        <configuration>
+                            <!-- assembly.xml file contains the configurations of assembly plugin. -->
+                            <descriptors>
+                                <descriptor>src/main/assembly/src.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- maven jar plugin. -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <!-- Java class file contains the main method. -->
+                            <mainClass>hsl.devspace.app.coreserver.common.ServerMain</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>core-server</finalName>
+    </build>
+</project>

@@ -1,0 +1,115 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="798" measuredH="565" mockupW="519" mockupH="525">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="468" y="63" w="-1" h="-1" measuredW="184" measuredH="27" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete%20Packages</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="279" y="40" w="519" h="377" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::SubTitle" x="460" y="69" w="-1" h="-1" measuredW="179" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>*Delete%20Package*</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="__group__" x="328" y="130" w="422" h="27" measuredW="422" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::PointyButton" x="342" y="0" w="-1" h="-1" measuredW="80" measuredH="27" zOrder="0" locked="false" isInGroup="4">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>3700253</color>
+            <direction>center</direction>
+            <icon>search%7Cxsmall</icon>
+            <newLayout>true</newLayout>
+            <text>Search</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="0" w="315" h="27" measuredW="315" measuredH="27" zOrder="1" locked="false" isInGroup="4">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="-1" h="-1" measuredW="109" measuredH="24" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>16</size>
+                <text>Package%20Name</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="121" y="0" w="194" h="-1" measuredW="132" measuredH="27" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Family%20Pack%20Medium</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Alert" x="519" y="432" w="279" h="133" measuredW="200" measuredH="149" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2Csuccess_delete_package%26bm%3Bsuccess_delete_package.bmml%26bm%3Bsuccess_delete_package.bmml%26bm%3Bsuccess_delete_package.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22380.5%2C487%2C518%2C524%22%20href%3D%22success_delete_package.bmml%22%20alt%3D%22success_delete_package%22%20id%3D%225%22/%3E</map>
+        <text>Delete%0ADo%20you%20really%20want%20to%20delete%20package%20PKG12-%20Family%20Pack%20Medium%20%20%3F%0ANo%2C%20Yes</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::List" x="380" y="189" w="339" h="190" measuredW="100" measuredH="126" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <rowHeight>35</rowHeight>
+        <text>Package%20ID%20%3A%0AContent%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="486" y="196" w="51" h="-1" measuredW="45" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>PZ1122</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Arrow" x="551" y="354" w="95" h="70" measuredW="150" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="589" y="439" w="30" h="23" measuredW="30" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-badge-danger</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="30" h="23" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>13576743</borderColor>
+            <color>13576743</color>
+            <shape>circle</shape>
+            <size>24</size>
+            <text>X</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::List" x="486" y="232" w="202" h="81" measuredW="100" measuredH="126" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%20%20%20%20%202%20Chicken%20Supreme%20Pizza%0A%20%20%20%20%20%204%20Coca-cola%0A%20%20%20%20%20%202%20Biscuit%20Pudding</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::PointyButton" x="472" y="334" w="-1" h="-1" measuredW="78" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>3700253</color>
+        <direction>center</direction>
+        <icon>times%7Cxsmall</icon>
+        <newLayout>true</newLayout>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::PointyButton" x="610" y="334" w="-1" h="-1" measuredW="62" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>3700253</color>
+        <direction>center</direction>
+        <newLayout>true</newLayout>
+        <text>Cancel</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

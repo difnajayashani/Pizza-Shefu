@@ -1,0 +1,30 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="834" measuredH="593" mockupW="614" mockupH="483">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="220" y="110" w="614" h="483" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comment%20Management%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="241" y="278" w="553" h="203" measuredW="465" measuredH="171" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22462.5029296875%2C196%2C509.23779296875%2C209%22%20href%3D%22approve_comment.bmml%22%20alt%3D%22approve%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22517.03759765625%2C196%2C560.4970703125%2C209%22%20href%3D%22discard_comment.bmml%22%20alt%3D%22discard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22462.5029296875%2C226%2C509.23779296875%2C239%22%20href%3D%22approve_comment.bmml%22%20alt%3D%22approve%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22517.03759765625%2C226%2C560.4970703125%2C239%22%20href%3D%22discard_comment.bmml%22%20alt%3D%22discard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22462.5029296875%2C256%2C509.23779296875%2C269%22%20href%3D%22approve_comment.bmml%22%20alt%3D%22approve%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22517.03759765625%2C256%2C560.4970703125%2C269%22%20href%3D%22discard_comment.bmml%22%20alt%3D%22discard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22462.5029296875%2C286%2C509.23779296875%2C299%22%20href%3D%22approve_comment.bmml%22%20alt%3D%22approve%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22517.03759765625%2C286%2C560.4970703125%2C299%22%20href%3D%22discard_comment.bmml%22%20alt%3D%22discard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22460.552978515625%2C316%2C507.287841796875%2C329%22%20href%3D%22approve_comment.bmml%22%20alt%3D%22approve%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22518.987548828125%2C316%2C562.447021484375%2C329%22%20href%3D%22discard_comment.bmml%22%20alt%3D%22discard%22%20id%3D%221%22/%3E</map>
+        <text>id%20%5Ev%2C%20User%20%5Ev%2C%20Content%2C%20%0A001%2C%20Jack%2C%20Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20%2C%5Bapprove%5D%28approve_comment%29%20%20%5Bdiscard%5D%28discard_comment%29%0A012%2C%20Jill%2CLorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%2C%5Bapprove%5D%28approve_comment%29%20%20%5Bdiscard%5D%28discard_comment%29%0A013%2C%20Tom%2CLorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%20%2C%5Bapprove%5D%28approve_comment%29%20%20%5Bdiscard%5D%28discard_comment%29%0A023%2C%20Narnia%2C%20Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%2C%20%5Bapprove%5D%28approve_comment%29%20%20%5Bdiscard%5D%28discard_comment%29%0A025%2C%20Rio%2C%20Lorem%20Ipsum%20is%20simply%20dummy%20text%20of%20the%2C%20%5Bapprove%5D%28approve_comment%29%20%20%20%5Bdiscard%5D%28discard_comment%29%0A%7B10C%2C%2015C%2C%2055C%2C%2020C%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="435" y="213" w="184" h="-1" measuredW="183" measuredH="28" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Pending%20Comments</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="279" y="210" w="74" h="35" measuredW="64" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>admin%26bm%3Badmin.bmml%26bm%3Badmin.bmml%26bm%3Badmin.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2259%2C100%2C133%2C135%22%20href%3D%22admin.bmml%22%20alt%3D%22admin%22%20id%3D%223%22/%3E</map>
+        <size>16</size>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

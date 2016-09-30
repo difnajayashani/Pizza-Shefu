@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <!-- &lt;!&ndash; CSS &ndash;&gt;
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min_spacelab.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    &lt;!&ndash;<link href="../css/business-casual-update.css" rel="stylesheet">&ndash;&gt;
+
+
+    &lt;!&ndash; Javascript &ndash;&gt;
+    <script src="../bootstrap/js/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    &lt;!&ndash; Fonts &ndash;&gt;
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic
+  ,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+          rel="stylesheet" type="text/css">-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossorigin="anonymous">
+    <link href="../css/homeStyle.css" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/loader.css" rel="stylesheet">
+
+</head>
+<!--<div w3-include-html="header.html"></div>-->
+
+<body >
+
+<div class="brand"></div>
+<center>
+    <!--<div class="loader-anim"></div>-->
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+
+                </div>
+            </div>
+
+            <div class="panel panel-success">
+                <div class="panel-heading" style="height: 50px">
+                    <h1> Sign up</h1>
+                </div>
+                <div class="panel-body">
+                    <form role="form" id="adduser_form" action="" method="post" class="form-horizontal">
+
+
+                        <div class="form-group">
+
+                            <label class="col-sm-2 control-label">
+                                Title
+                            </label>
+
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Mr
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Mrs
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Miss
+                                </label>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label class="col-sm-2 control-label">
+                                Name
+                            </label>
+
+                            <div class="col-sm-4">
+                                <input class="form-control" id="txt-fname" type="text" placeholder="First Name*">
+                                <label id="fname_error" class="error-labels"></label>
+
+                            </div>
+
+                            <div class="col-sm-4">
+                                <input class="form-control" id="txt-lname" type="text" placeholder="Last Name">
+                                <label id="lname_error" class="error-labels"></label>
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <label class="col-sm-2 control-label">
+                                Address
+                            </label>
+
+                            <div class="col-sm-4">
+                                <input class="form-control" id="txt-deliadd01" type="text" placeholder="Line1*">
+                                <label id="address_error" class="error-labels"></label>
+
+                            </div>
+
+                            <div class="col-sm-4">
+                                <input class="form-control" id="txt-deliadd04" type="text" placeholder="Line2*">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <label class="col-sm-2 control-label">
+                                City
+                            </label>
+
+                            <div class="col-sm-2">
+                                <!-- <select name="city">
+                                     <option>Select Your Nearest City</option>
+                                 </select>-->
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
+                                            data-toggle="dropdown">Select Nearest City
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Nugegoda</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <label class="col-sm-4 control-label">
+                                Date Of Birth
+                            </label>
+
+                            <div class='col-sm-2'>
+                                <input class="form-control" id="dob" type="text" placeholder="22/08/2016">
+                            </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="txt-contactno" class="col-sm-2 control-label">
+                                    Phone No
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="txt-contactno" type="text" placeholder="+94-XXXXXXXXXX">
+                                    <label id="contactno_error" class="error-labels" ></label>
+
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="txt-email" class="col-sm-2 control-label">
+                                    E-Mail
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="txt-email" type="text" placeholder="example@domain.com">
+                                    <label id="email_error" class="error-labels"></label>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="col-sm-2 control-label">
+                                    Username
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="username" type="text" placeholder="username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-sm-2 control-label">
+                                    Password
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="password" type="text" placeholder="password">
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="rePassword" type="text"
+                                           placeholder="Re-Enter Password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button id="btn-proceed-submit" type="button" class="btn btn-success">Create Account</button>
+                            </div>
+                            <div class="form-group">
+                                <a href="login.html">Already Have An Account ?</a>
+                            </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</center>
+
+
+</body>
+<!--<div w3-include-html="footer.html"></div>-->
+
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<script>
+    w3IncludeHTML();
+</script>
+</html>
+<!--<script src="../js/loader.js"></script>-->
+
+<script src="../js/validate-inputs.js"></script>
+

@@ -1,0 +1,958 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: Pizza Shefu REST API
+  description: This documentation created to demonstrate the RESTful services in the system.
+    Please follow the following steps to open this YAML file in Swagger Editor. 
+    Open the url meioned below and paste this complete set of code or click file > import file.
+    Browse and open this YAML file.
+  #termsOfService: http://helloreverb.com/terms/
+  contact:
+    name: hSenid Lanka team
+    #email: foo@example.com
+    url: http://editor.swagger.io/
+  #license:
+    #name: MIT
+    #url: http://opensource.org/licenses/MIT
+host: localhost:2222
+basePath: /pizza-shefu/api/v1.0
+schemes:
+  - http
+paths:
+  /customers/register:
+    post:
+      description: Register new user
+      tags:
+        - customer
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: body
+          in: body
+          description: User object to register
+          required: true
+          schema:
+            $ref: "#/definitions/user"
+            
+      responses:
+        '201':
+          description: New user added/created
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '415':
+          description: Media type should be application/json
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'    
+
+  /customers/login:
+    post: 
+      description: Authorize a user by username and password
+      tags:
+        - customer
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: body
+          in: body
+          description: User object to authenticate
+          required: true
+          schema:
+            $ref: '#/definitions/user-login'
+            
+      responses:
+        '200':
+          description: Correct username password combination
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '401':
+          description: Wrong username password combination
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '415':
+          description: Media type should be application/json
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'  
+              
+  /guests/add:
+    post:
+      description: Add a new guest customer to the database.
+      tags:
+        - guest
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: body
+          in: body
+          description: User object to register
+          required: true
+          schema:
+            $ref: "#/definitions/user-guest"
+            
+      responses:
+        '201':
+          description: New user added/created
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '415':
+          description: Media type should be application/json
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '400':
+          description: Invalid data. May be a duplicate mobile no.
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /customers/{username}:
+    get: 
+      description: Get details of a specific customer
+      tags:
+        - customer
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: username
+          in: path
+          description: username of the customer to find
+          required: true
+          type: string
+            
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '415':
+          description: Media type should be application/json
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message' 
+    
+  /categories/getall:
+    get: 
+      description: Get details of all categories
+      tags:
+        - category
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        '201':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '415':
+          description: Media type should be application/json
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'    
+              
+  /categories/toprated:
+    get: 
+      description: Returns the top rated items by all categories
+      tags:
+        - category
+      produces:
+        - application/json
+
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found (invalid request)
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+                            
+            
+  /items/category/{categoryName}:
+    get: 
+      description: Returns all the details of items for the given category
+      tags:
+        - item
+      produces:
+        - application/json
+      parameters:
+        - name: categoryName
+          in: path
+          description: Name of the category to filter menu items (Pizza, Desserts, etc)
+          required: true
+          type: string
+
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found (invalid request)
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /items/sub-category/{subcategoryName}:
+    get: 
+      description: Returns all the details of items for the given sub-category
+      tags:
+        - item
+      produces:
+        - application/json
+      parameters:
+        - name: subcategoryName
+          in: path
+          description: Name of the sub-category to filter menu items (Soft drinks, Pudding, etc)
+          required: true
+          type: string
+
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found (invalid request)
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message' 
+              
+  /items/category/{categoryName}/toprated:
+    get: 
+      description: Returns the top rated items of a category
+      tags:
+        - item
+      produces:
+        - application/json
+
+      parameters:
+        - name: categoryName
+          in: path
+          description: Name of the category to filter menu items (Pizza, Desserts, etc)
+          required: true
+          type: string
+
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found (invalid request)
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /items/search/{searchKey}:
+    get: 
+      description: Search item within all categories
+      tags:
+        - item
+      produces:
+        - application/json
+
+      parameters:
+        - name: searchKey
+          in: path
+          description: Key value to search items
+          required: true
+          type: string
+
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found (invalid request)
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /items/search/{searchKey}/category/{categoryName}:
+    get: 
+      description: Search item from a specific category
+      tags:
+        - item
+      produces:
+        - application/json
+
+      parameters:
+        - name: categoryName
+          in: path
+          description: Name of the category to filter menu items (Pizza, Desserts, etc)
+          required: true
+          type: string
+      
+        - name: searchKey
+          in: path
+          description: Key value to search items
+          required: true
+          type: string
+          
+      responses:
+        '200':
+          description: Request processed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found (invalid request)
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /coupons/validate:
+    post: 
+      description: Validate the coupon code user submitted
+      tags:
+        - coupon
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: body
+          in: body
+          description: Coupon to validate
+          required: false
+          schema:
+            $ref: "#/definitions/coupon-validate"
+            
+      responses:
+        '200':
+          description: Coupon validated
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '401':
+          description: Invalid coupon code
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /coupons/add:
+    post: 
+      description: Generate a new coupon code for the payment
+      tags:
+        - coupon
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: body
+          in: body
+          description: New coupon to add
+          required: true
+          schema:
+            $ref: '#/definitions/coupon'
+            
+      responses:
+        '201':
+          description: New coupon added/created
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '415':
+          description: Media type should be application/json
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'    
+              
+  /shopping-cart/add/item/{ItemName}/qty/{quantity}:
+    post: 
+      description: Add a selected item to the shopping cart
+      tags:
+        - shopping cart
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - name: ItemName
+          in: path
+          description: Name of the item adding to the shopping cart
+          required: true
+          type: string
+
+        - name: quantity
+          in: path
+          description: Item quantity to add to cart
+          required: true
+          type: number
+          format: double
+
+      responses:
+        '201':
+          description: Item added to the shopping cart
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '415':
+          description: Media type should be application/json.
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+  /shopping-cart/modify/item/{ItemName}/qty/{quantity}:
+    put: 
+      description: Modify a selected item in the shopping cart
+      produces:
+        - application/json
+
+      parameters:
+        - name: ItemName
+          in: path
+          description: Name of the item
+          required: true
+          type: string
+
+        - name: quantity
+          in: path
+          description: Item quantity
+          required: true
+          type: number
+          format: double
+
+      responses:
+        '201':
+          description: Item modified and added to the shopping cart
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '405':
+          description: Wrong http method used
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+        
+        '408':
+          description: Request timeout
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '409':
+          description: Conflict with the target resource
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '414':
+          description: URI too long
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '415':
+          description: Unsupported media type
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '500':
+          description: Internal server error
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'  
+              
+  /shopping-cart/remove/item/{ItemName}:
+    delete: 
+      description: Remove item from the shopping cart
+      produces:
+        - application/json
+
+      parameters:
+        - name: ItemName
+          in: path
+          description: Name of the item removing from the shopping cart
+          required: true
+          type: string
+
+      responses:
+        '200':
+          description: Item removed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '405':
+          description: Wrong http method used
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+        
+        '408':
+          description: Request timeout
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '409':
+          description: Conflict with the target resource
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '414':
+          description: URI too long
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '415':
+          description: Unsupported media type
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '500':
+          description: Internal server error
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message' 
+              
+  /shopping-cart/add/package/{packageName}/qty/{quantity}:
+    post: 
+      description: Add a selected package to the shopping cart
+      produces:
+        - application/json
+
+      parameters:
+        - name: packageName
+          in: path
+          description: Name of the package adding to the shopping cart
+          required: true
+          type: string
+          
+        - name: quantity
+          in: path
+          description: Quantity of packages to add to cart
+          required: true
+          type: string  
+
+      responses:
+        '201':
+          description: Package added successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '405':
+          description: Wrong http method used
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+        
+        '408':
+          description: Request timeout
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '409':
+          description: Conflict with the target resource
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '414':
+          description: URI too long
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '415':
+          description: Unsupported media type
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '500':
+          description: Internal server error
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'                
+
+  /shopping-cart/modify/package/{packageName}/qty/{quantity}:
+    put: 
+      description: Modify a selected package in the shopping cart
+      produces:
+        - application/json
+
+      parameters:
+        - name: packageName
+          in: path
+          description: Name of the package
+          required: true
+          type: string
+          
+        - name: quantity
+          in: path
+          description: package quantity
+          required: true
+          type: string  
+
+      responses:
+        '201':
+          description: Package modified and added successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '405':
+          description: Wrong http method used
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+        
+        '408':
+          description: Request timeout
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '409':
+          description: Conflict with the target resource
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '414':
+          description: URI too long
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '415':
+          description: Unsupported media type
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '500':
+          description: Internal server error
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'    
+
+  /shopping-cart/remove/package/{packageName}:
+    put: 
+      description: Remove package from the shopping cart
+      produces:
+        - application/json
+
+      parameters:
+        - name: packageName
+          in: path
+          description: Name of the package removing from the shopping cart
+          required: true
+          type: string
+
+      responses:
+        '200':
+          description: Package removed successfully
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/success-message'
+              
+        '404':
+          description: Resource not found
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '405':
+          description: Wrong http method used
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+        
+        '408':
+          description: Request timeout
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '409':
+          description: Conflict with the target resource
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '414':
+          description: URI too long
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '415':
+          description: Unsupported media type
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'
+              
+        '500':
+          description: Internal server error
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/error-message'    
+
+definitions:
+  error-message:
+    type: object
+    required:
+      - status
+      - error-code
+      - error-message
+      - description
+    properties:
+      status:
+        type: string
+      error-code:
+        type: integer
+        format: int32
+      error-message:
+        type: string
+      description:
+        type: string
+   
+  success-message:
+    type: object
+    required:
+      - status
+      - code
+      - message
+      - data
+      - links
+    properties:
+      status:
+        type: string
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
+      data:
+        type: object
+      links:
+        type: object
+        
+  user-login:
+      type: object
+      required:
+            - username
+            - password
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+          
+  user:
+      type: object
+      required:
+            - title
+            - firstName
+            - lastName
+            - username
+            - password
+            - email
+            - addressL1
+            - addressL2
+            - mobile
+            
+      properties:
+        title:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        username:
+          type: string
+        password:
+          type: string
+        email:
+          type: string
+        addressL1:
+          type: string
+        addressL2:
+          type: string
+        addressL3:
+          type: string
+        mobile:
+          type: string
+          
+  user-guest:
+      type: object
+      required:
+            - mobile
+            
+      properties:
+        mobile:
+          type: string
+          
+  coupon-validate:
+    type: object
+    required:
+          - couponCode
+          - customerMobile
+    properties:
+      couponCode:
+        type: string
+      customerMobile:
+        type: string     
+        
+  coupon:
+    type: object
+    required:
+          - couponCode
+          - rate
+          - expireDate
+          - customerMobile
+    properties:
+      couponCode:
+        type: string
+      rate:
+        type: number
+      expireDate:
+        type: string
+        format: date
+      customerMobile:
+        type: string            

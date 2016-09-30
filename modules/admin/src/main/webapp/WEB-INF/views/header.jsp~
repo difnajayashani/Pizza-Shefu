@@ -1,0 +1,27 @@
+<div class="row">
+    <style scoped>
+        img {
+            position: absolute;
+            top: -5px;
+            left: 15px;
+        }
+
+        a {
+            position: absolute;
+            top: 45px;
+            right: 40px;
+            color: #1c6218;
+        }
+
+        a:hover {
+            color: black;
+        }
+    </style>
+    <div>
+        <img src="../images/logo.png" alt="logo" style="width:100px;height:130px;">
+    </div>
+
+    <div>
+        <a href="#">Log Out</a>
+    </div>
+</div>

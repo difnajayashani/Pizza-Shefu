@@ -1,0 +1,38 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="688" measuredH="433" mockupW="450" mockupH="382">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="238" y="51" w="450" h="382" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comment%20discarding%20successful%20%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="285" y="195" w="-1" h="-1" measuredW="287" measuredH="28" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Rating%20successfully%20discarded</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="321" y="282" w="134" h="33" measuredW="118" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <href>rating_management%26bm%3Brating_management.bmml%26bm%3Brating_management.bmml%26bm%3Brating_management.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2283%2C231%2C217%2C264%22%20href%3D%22rating_management.bmml%22%20alt%3D%22rating_management%22%20id%3D%223%22/%3E</map>
+        <size>16</size>
+        <text>Review%20More</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="524" y="282" w="85" h="33" measuredW="64" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>admin%26bm%3Badmin.bmml%26bm%3Badmin.bmml%26bm%3Badmin.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22286%2C231%2C371%2C264%22%20href%3D%22admin.bmml%22%20alt%3D%22admin%22%20id%3D%224%22/%3E</map>
+        <size>16</size>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="606" y="185" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>check%7Clarge</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

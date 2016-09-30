@@ -1,0 +1,129 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1107" measuredH="603" mockupW="890" mockupH="597">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="217" y="6" w="890" h="597" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Home%0Ahttp%3A//www.pizzashefu.com/home</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::MenuBar" x="609" y="149" w="463" h="29" measuredW="460" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>browse_menu%26bm%3Bbrowse_menu.bmml%26bm%3Bbrowse_menu.bmml%26bm%3Bbrowse_menu.bmml%2C%2C%2Cview_feedbacks%26bm%3Bview_feedbacks.bmml%26bm%3Bview_feedbacks.bmml%26bm%3Bview_feedbacks.bmml%2Ccontact_us%26bm%3Bcontact_us.bmml%26bm%3Bcontact_us.bmml%26bm%3Bcontact_us.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22410%2C153%2C451%2C166%22%20href%3D%22browse_menu.bmml%22%20alt%3D%22browse_menu%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22610%2C153%2C684%2C166%22%20href%3D%22view_feedbacks.bmml%22%20alt%3D%22view_feedbacks%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22693%2C153%2C770%2C166%22%20href%3D%22contact_us.bmml%22%20alt%3D%22contact_us%22%20id%3D%222%22/%3E</map>
+        <text>Menu%2CPackages%2CLocations%2CFeedbacks%2CContact%20Us%2CAbout%20Us</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Icon" x="892" y="89" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <href>shopping_cart_pickup_order_summary%26bm%3Bshopping_cart_pickup_order_summary.bmml%26bm%3Bshopping_cart_pickup_order_summary.bmml%26bm%3Bshopping_cart_pickup_order_summary.bmml</href>
+        <icon>shopping-cart%7Csmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22675%2C83%2C699%2C107%22%20href%3D%22shopping_cart_pickup_order_summary.bmml%22%20alt%3D%22shopping_cart_pickup_order_summary%22%20id%3D%2210%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="270" y="89" w="113" h="60" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Icon" x="951" y="473" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6989903</color>
+        <icon>android%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Icon" x="1004" y="473" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>6710886</color>
+        <icon>apple%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Button" x="930" y="88" w="60" h="27" measuredW="54" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>login%26bm%3Blogin.bmml%26bm%3Blogin.bmml%26bm%3Blogin.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22713%2C82%2C773%2C109%22%20href%3D%22login.bmml%22%20alt%3D%22login%22%20id%3D%2225%22/%3E</map>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="998" y="88" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>signup%26bm%3Bsignup.bmml%26bm%3Bsignup.bmml%26bm%3Bsignup.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22781%2C82%2C854%2C109%22%20href%3D%22signup.bmml%22%20alt%3D%22signup%22%20id%3D%2226%22/%3E</map>
+        <text>Register</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="__group__" x="270" y="481" w="175" h="32" measuredW="175" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>545684</color>
+            <icon>facebook-square%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="47" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>65535</color>
+            <icon>twitter-square%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="95" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>13369344</color>
+            <icon>pinterest-square%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="143" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>12745632</color>
+            <icon>instagram%7Cmedium</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="270" y="513" w="-1" h="-1" measuredW="125" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>@%20All%20rights%20reserved</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="274" y="527" w="-1" h="-1" measuredW="115" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>powered%20by%20hSenid%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="927" y="302" w="104" h="-1" measuredW="102" measuredH="26" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2575891</color>
+        <size>18</size>
+        <text>order%20online%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="270" y="210" w="802" h="241" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="732" y="402" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <icon>caret-right%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="607" y="402" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <icon>caret-left%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="913" y="238" w="134" h="174" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <href>browse_menu%26bm%3Bbrowse_menu.bmml%26bm%3Bbrowse_menu.bmml%26bm%3Bbrowse_menu.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22696%2C232%2C830%2C406%22%20href%3D%22browse_menu.bmml%22%20alt%3D%22browse_menu%22%20id%3D%2237%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="309" y="123" w="-1" h="-1" measuredW="34" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>logo</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

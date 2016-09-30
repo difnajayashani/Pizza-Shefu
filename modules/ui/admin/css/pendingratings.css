@@ -1,0 +1,35 @@
+.maintable {
+    /*background: white;*/
+    width: 80%;
+    /*position: absolute;*/
+    top: 18%;
+    /*bottom: 13%;*/
+    /*position: absolute;style="vertical-align:middle"*/
+    /*left: 10%;*/
+    /*text-align: center;*/
+}
+
+
+th {
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+td {
+    text-align: center;
+    vertical-align:middle;
+}
+
+
+.paginationPosition{
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+}
+
+.modalposition{
+    margin-top: 5%;
+}

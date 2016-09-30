@@ -1,0 +1,134 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="908" measuredH="1029" mockupW="607" mockupH="968">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="301" y="61" w="607" h="968" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Admin%20Panel%0Ahttps%3A//www.pizzashefu.com/admin</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="365" y="178" w="487" h="119" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Item%20Management</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::FieldSet" x="365" y="505" w="487" h="108" measuredW="200" measuredH="170" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Category%20Management</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::FieldSet" x="361" y="656" w="487" h="116" measuredW="200" measuredH="170" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>User%20Management</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="400" y="697" w="123" h="47" measuredW="96" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>user_create%26bm%3Buser_create.bmml%26bm%3Buser_create.bmml%26bm%3Buser_create.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2299%2C636%2C222%2C683%22%20href%3D%22user_create.bmml%22%20alt%3D%22user_create%22%20id%3D%225%22/%3E</map>
+        <text>Create%20User</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="547" y="697" w="123" h="47" measuredW="89" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>user_view%26bm%3Buser_view.bmml%26bm%3Buser_view.bmml%26bm%3Buser_view.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22246%2C636%2C369%2C683%22%20href%3D%22user_view.bmml%22%20alt%3D%22user_view%22%20id%3D%226%22/%3E</map>
+        <text>View%20Users</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="701" y="697" w="123" h="47" measuredW="106" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Banned%20Users</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="443" y="542" w="118" h="35" measuredW="103" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>add_category%26bm%3Badd_category.bmml%26bm%3Badd_category.bmml%26bm%3Badd_category.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22142%2C481%2C260%2C516%22%20href%3D%22add_category.bmml%22%20alt%3D%22add_category%22%20id%3D%228%22/%3E</map>
+        <text>Add%20Category</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="649" y="542" w="124" h="33" measuredW="109" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>view_categories%26bm%3Bview_categories.bmml%26bm%3Bview_categories.bmml%26bm%3Bview_categories.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22348%2C481%2C472%2C514%22%20href%3D%22view_categories.bmml%22%20alt%3D%22view_categories%22%20id%3D%229%22/%3E</map>
+        <text>View%20Category</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="508" y="221" w="78" h="40" measuredW="76" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>add_item%26bm%3Badd_item.bmml%26bm%3Badd_item.bmml%26bm%3Badd_item.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22207%2C160%2C285%2C200%22%20href%3D%22add_item.bmml%22%20alt%3D%22add_item%22%20id%3D%2210%22/%3E</map>
+        <text>Add%20Item</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="628" y="221" w="79" h="40" measuredW="77" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>edit_item%26bm%3Bedit_item.bmml%26bm%3Bedit_item.bmml%26bm%3Bedit_item.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22327%2C160%2C406%2C200%22%20href%3D%22edit_item.bmml%22%20alt%3D%22edit_item%22%20id%3D%2211%22/%3E</map>
+        <text>Edit%20Item</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="391" y="221" w="83" h="40" measuredW="81" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>view_item%26bm%3Bview_item.bmml%26bm%3Bview_item.bmml%26bm%3Bview_item.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2290%2C160%2C173%2C200%22%20href%3D%22view_item.bmml%22%20alt%3D%22view_item%22%20id%3D%2212%22/%3E</map>
+        <text>View%20Item</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="742" y="221" w="95" h="40" measuredW="92" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Delete_Item%26bm%3BDelete_Item.bmml%26bm%3BDelete_Item.bmml%26bm%3BDelete_Item.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22441%2C160%2C536%2C200%22%20href%3D%22Delete_Item.bmml%22%20alt%3D%22Delete_Item%22%20id%3D%2213%22/%3E</map>
+        <text>Delete%20Item</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::FieldSet" x="356" y="824" w="496" h="135" measuredW="200" measuredH="170" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notifications</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="443" y="871" w="118" h="40" measuredW="108" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <href>comment_management%26bm%3Bcomment_management.bmml%26bm%3Bcomment_management.bmml%26bm%3Bcomment_management.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22142%2C810%2C260%2C850%22%20href%3D%22comment_management.bmml%22%20alt%3D%22comment_management%22%20id%3D%2215%22/%3E</map>
+        <menuIcon>true</menuIcon>
+        <text>Comments</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="663" y="872" w="110" h="39" measuredW="69" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <href>rating_management%26bm%3Brating_management.bmml%26bm%3Brating_management.bmml%26bm%3Brating_management.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22362%2C811%2C472%2C850%22%20href%3D%22rating_management.bmml%22%20alt%3D%22rating_management%22%20id%3D%2216%22/%3E</map>
+        <text>Ratings</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::FieldSet" x="365" y="336" w="487" h="119" measuredW="200" measuredH="170" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Package%20Management</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="495" y="383" w="105" h="40" measuredW="98" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>add_new_package%26bm%3Badd_new_package.bmml%26bm%3Badd_new_package.bmml%26bm%3Badd_new_package.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22194%2C322%2C299%2C362%22%20href%3D%22add_new_package.bmml%22%20alt%3D%22add_new_package%22%20id%3D%2218%22/%3E</map>
+        <text>Add%20Package</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="608" y="383" w="99" h="40" measuredW="99" measuredH="27" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Edit%20Package</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="378" y="383" w="108" h="40" measuredW="104" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>View%20Package</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Button" x="717" y="383" w="120" h="40" measuredW="115" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete%20Package</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

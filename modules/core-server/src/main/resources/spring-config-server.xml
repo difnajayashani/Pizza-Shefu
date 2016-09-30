@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="serverModel" class="hsl.devspace.app.coreserver.model.ServerModel">
+        <property name="packageName" value="hsl.devspace.app.coreserver"/>
+        <property name="port" value="2222"/>
+        <property name="contextRoot" value="/"/>
+        <property name="servletPath" value="/pizza-shefu/api/v1.0/*"/>
+    </bean>
+
+</beans>

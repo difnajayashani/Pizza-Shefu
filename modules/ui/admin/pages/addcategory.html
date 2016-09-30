@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Category</title>
+
+    <link rel="import" href="adminTop.html">
+    <link rel="stylesheet" href="../css/add-category.css">
+
+</head>
+
+<body>
+
+<object width="100%" data="header.html"></object>
+
+<div class="brand">
+    <div style="position: relative; left: -50%;">
+        <p>Category Management</p>
+    </div>
+</div>
+<br>
+
+<div class="breadcrumbPosition">
+    <div style="position: relative; left: -50%;">
+        <ul class="breadcrumb breadcrumb-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Category Management</a></li>
+            <li class="active"><a href="viewcategories.html">Add New Category</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="categoryField center ">
+    <div class="panel panel-default">
+        <div class="panel-heading common-form-headings" style="vertical-align:middle">
+            <h3 class="default-panel-headings">View All Pending Comments</h3>
+            <br>
+        </div>
+        <div class="panel-body">
+
+            <form class="form-horizontal">
+                <fieldset>
+
+                    <div class="form-group">
+                        <label for="categoryid" class="control-label col-sm-3" style="">Category Id :</label>
+
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="categoryid"
+                                   placeholder="Please Enter Category Id">
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="categoryname" class="control-label col-sm-3">Category Name :</label>
+
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="categoryname"
+                                   placeholder="Please Enter Category Name">
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="categoryname" class="control-label col-sm-3">Category Description :</label>
+
+                        <div class="col-sm-9">
+                            <textarea type="text" class="form-control" id=""
+                                      placeholder="Please Enter Category Description"></textarea>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-3" style="text-align: right">
+                            <input type="checkbox" name="vehicle" value="Bike">
+                            <label for="checkbox">
+                                Sub Category :
+                            </label>
+                        </div>
+
+                        <div class="col-sm-9">
+                            <select style="width: 100%; height: 30px" class="selectpicker">
+                                <option>Pizza</option>
+                                <option>Pasta</option>
+                                <option>Salad</option>
+                                <option>Desserts</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subcategory" class="control-label col-sm-3">Sub Category Name : </label>
+
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="subcategory"
+                                   placeholder="Please Enter Sub Category Name">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="form-group" style="text-align: center">
+
+                        <div class="col-sm-3"></div>
+
+                        <div class="col-sm-2" >
+                            <button class="btn btn-success btn-lg" type="button" data-toggle="modal"
+                                    data-target="#myModal">
+                                <span class="glyphicon glyphicon-ok"></span> Submit Category
+                            </button>
+                        </div>
+
+                        <div class="col-sm-2"></div>
+
+                        <div class="col-sm-2">
+                            <button class="btn btn-success btn-lg">
+                                <span class="glyphicon glyphicon-remove"></span> Cancel
+                            </button>
+                        </div>
+
+                        <div class="col-sm-3"></div>
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div id="myModal" class="modal fade" role="dialog" style="top: 25%; height: 70%">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="panel panel-default">
+                <div class="panel-heading common-form-headings" style="vertical-align:middle">
+                    <h3 class="modal-title" style="text-align:center;"><span class="glyphicon glyphicon-ok"> </span>
+                        Category Successfully Submitted !!!</h3>
+
+                </div>
+            </div>
+
+            <div class="modal-body" style="padding-bottom: 5%">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h4>
+                                You have successfully submittted the category<br><br>
+                                What do you want to do next?<br>
+                        </h4>
+
+                    </div>
+                </div>
+
+
+                <div class="row" style="padding-top: 5%">
+                    <div class="col-sm-4" style="text-align: right">
+                        <button class="btn btn-success">Add New Category</button>
+                    </div>
+                    <div class="col-sm-4" style="text-align: center">
+                        <button class="btn btn-success">Home</button>
+                    </div>
+                    <div class="col-sm-4" style="text-align: left">
+                        <button class="btn btn-success">View Categories</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="footerposition">
+    <link rel="import" href="footer.html">
+
+</div>
+
+</body>
+</html>

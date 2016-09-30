@@ -1,0 +1,387 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="995" measuredH="463" mockupW="931" mockupH="436">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="64" y="76" w="281" h="387" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <shape>roundRect</shape>
+        <size>14</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="64" y="76" w="281" h="43" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>14540253</color>
+        <shape>roundRect</shape>
+        <size>18</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="73" y="123" w="111" h="-1" measuredW="89" measuredH="22" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Apply%20coupon</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="__group__" x="232" y="216" w="88" h="22" measuredW="88" measuredH="22" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-label-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="88" h="22" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="4">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>2848996</borderColor>
+            <color>2848996</color>
+            <shape>roundRect</shape>
+            <size>12</size>
+            <text>Validate</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="86" y="239" w="-1" h="-1" measuredW="59" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Total%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="86" y="263" w="-1" h="-1" measuredW="81" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Discount%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="251" y="239" w="-1" h="-1" measuredW="50" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2850.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="272" y="263" w="-1" h="-1" measuredW="27" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>0.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="88" y="308" w="-1" h="-1" measuredW="126" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Discounted%20total%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="88" y="332" w="-1" h="-1" measuredW="126" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Service%20charges%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="253" y="308" w="-1" h="-1" measuredW="50" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2850.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="270" y="332" w="-1" h="-1" measuredW="34" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>50.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="161" y="358" w="111" h="-1" measuredW="90" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Net%20amount</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="151" y="383" w="111" h="-1" measuredW="92" measuredH="24" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Rs.%202900.00</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="__group__" x="111" y="411" w="190" h="39" measuredW="190" measuredH="39" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-label-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="190" h="39" measuredW="36" measuredH="36" zOrder="0" locked="false" isInGroup="15">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>2848996</borderColor>
+            <color>2848996</color>
+            <icon>money%7Cmedium</icon>
+            <shape>roundRect</shape>
+            <size>14</size>
+            <text>%20Proceed%20Checkout</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Icon" x="70" y="82" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <icon>list-alt%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="107" y="85" w="-1" h="-1" measuredW="48" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Total</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::VSplitter" x="73" y="289" w="253" h="-1" measuredW="100" measuredH="11" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="19" controlTypeID="__group__" x="86" y="179" w="234" h="26" measuredW="234" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-input</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="0" w="234" h="26" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="19">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>13576743</borderColor>
+            <text>1524505871</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="208" y="5" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="19">
+          <controlProperties>
+            <color>13576743</color>
+            <icon>XIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="20" controlTypeID="__group__" x="101" y="153" w="199" h="20" measuredW="199" measuredH="20" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-alert-danger</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="3" controlTypeID="__group__" x="0" y="0" w="199" h="20" measuredW="199" measuredH="20" zOrder="0" locked="false" isInGroup="20">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="199" h="19" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="3">
+              <controlProperties>
+                <align>left</align>
+                <backgroundAlpha>1</backgroundAlpha>
+                <borderColor>14706278</borderColor>
+                <color>15374745</color>
+                <shape>roundRect</shape>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="179" y="1" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <icon>CircledXIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="5" y="3" w="133" h="17" measuredW="275" measuredH="80" zOrder="2" locked="false" isInGroup="3">
+              <controlProperties>
+                <color>10027008</color>
+                <size>12</size>
+                <text>Invalid%20coupon%20code</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::RoundButton" x="599" y="76" w="281" h="387" measuredW="32" measuredH="32" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <shape>roundRect</shape>
+        <size>14</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::RoundButton" x="599" y="76" w="281" h="43" measuredW="32" measuredH="32" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <color>14540253</color>
+        <shape>roundRect</shape>
+        <size>18</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="608" y="123" w="111" h="-1" measuredW="89" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Apply%20coupon</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="__group__" x="767" y="216" w="88" h="22" measuredW="88" measuredH="22" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-label-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="88" h="22" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="45">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>2848996</borderColor>
+            <color>2848996</color>
+            <shape>roundRect</shape>
+            <size>12</size>
+            <text>Validate</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="621" y="239" w="-1" h="-1" measuredW="59" measuredH="21" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Total%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Label" x="621" y="263" w="-1" h="-1" measuredW="81" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Discount%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="786" y="239" w="-1" h="-1" measuredW="50" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2850.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="797" y="262" w="-1" h="-1" measuredW="39" measuredH="21" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>150.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Label" x="623" y="308" w="-1" h="-1" measuredW="126" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Discounted%20total%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="623" y="332" w="-1" h="-1" measuredW="126" measuredH="21" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Service%20charges%20%28Rs%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="788" y="308" w="-1" h="-1" measuredW="50" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2700.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="800" y="332" w="-1" h="-1" measuredW="35" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>40.00</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="696" y="358" w="111" h="-1" measuredW="90" measuredH="24" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Net%20amount</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="686" y="383" w="111" h="-1" measuredW="93" measuredH="24" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Rs.%202740.00</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="__group__" x="646" y="411" w="190" h="39" measuredW="190" measuredH="39" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-label-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="190" h="39" measuredW="36" measuredH="36" zOrder="0" locked="false" isInGroup="56">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>2848996</borderColor>
+            <color>2848996</color>
+            <icon>money%7Cmedium</icon>
+            <shape>roundRect</shape>
+            <size>14</size>
+            <text>%20Proceed%20Checkout</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Icon" x="605" y="82" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <icon>list-alt%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="642" y="85" w="-1" h="-1" measuredW="48" measuredH="28" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Total</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::VSplitter" x="608" y="289" w="253" h="-1" measuredW="100" measuredH="11" zOrder="37" locked="false" isInGroup="-1"/>
+    <control controlID="62" controlTypeID="__group__" x="638" y="152" w="198" h="20" measuredW="198" measuredH="20" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-alert-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="3" controlTypeID="__group__" x="0" y="0" w="198" h="20" measuredW="198" measuredH="20" zOrder="0" locked="false" isInGroup="62">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="177" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <icon>CircledXIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="__group__" x="0" y="0" w="198" h="20" measuredW="198" measuredH="20" zOrder="0" locked="false" isInGroup="3">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="198" h="20" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <align>left</align>
+                    <borderColor>40463</borderColor>
+                    <color>11982760</color>
+                    <shape>roundRect</shape>
+                    <text/>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="3" y="3" w="107" h="17" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <color>2575891</color>
+                    <italic>true</italic>
+                    <size>12</size>
+                    <text>Coupon%20validated...</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="65" controlTypeID="__group__" x="621" y="179" w="234" h="26" measuredW="234" measuredH="26" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-input-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="0" w="234" h="26" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="65">
+          <controlProperties>
+            <borderColor>40463</borderColor>
+            <text>1524505781</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="215" y="7" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="65">
+          <controlProperties>
+            <color>40463</color>
+            <icon>CheckMarkIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::StickyNote" x="302" y="27" w="149" h="79" measuredW="109" measuredH="123" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Case%3A%20Coupon%20entered%20is%20wrong</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::StickyNote" x="846" y="27" w="149" h="79" measuredW="109" measuredH="123" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Case%3A%20Coupon%20entered%20is%20correct</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,32 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="773" measuredH="639" mockupW="594" mockupH="533">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="179" y="106" w="594" h="533" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Review%20Ratings</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="214" y="285" w="517" h="290" measuredW="280" measuredH="171" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22414.9169921875%2C207%2C463.22509765625%2C220%22%20href%3D%22approve_rating.bmml%22%20alt%3D%22Approve%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22471.02490234375%2C207%2C516.0830078125%2C220%22%20href%3D%22discard_rating.bmml%22%20alt%3D%22Discard%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22414.9169921875%2C237%2C463.22509765625%2C250%22%20href%3D%22approve_rating.bmml%22%20alt%3D%22Approve%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22471.02490234375%2C237%2C516.0830078125%2C250%22%20href%3D%22discard_rating.bmml%22%20alt%3D%22Discard%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22414.9169921875%2C267%2C463.22509765625%2C280%22%20href%3D%22approve_rating.bmml%22%20alt%3D%22Approve%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22471.02490234375%2C267%2C516.0830078125%2C280%22%20href%3D%22discard_rating.bmml%22%20alt%3D%22Discard%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22414.9169921875%2C297%2C463.22509765625%2C310%22%20href%3D%22approve_rating.bmml%22%20alt%3D%22Approve%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22471.02490234375%2C297%2C516.0830078125%2C310%22%20href%3D%22discard_rating.bmml%22%20alt%3D%22Discard%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22414.9169921875%2C327%2C463.22509765625%2C340%22%20href%3D%22approve_rating.bmml%22%20alt%3D%22Approve%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22471.02490234375%2C327%2C516.0830078125%2C340%22%20href%3D%22discard_rating.bmml%22%20alt%3D%22Discard%22%20id%3D%222%22/%3E</map>
+        <text>Id%20%5Ev%2C%20User%20%5Ev%2C%20Stars%20%5Ev%2C%20%0A002%2C%20Tom%2C%20****%2C%20%5BApprove%5D%28approve_rating%29%20%20%5BDiscard%5D%28discard_rating%29%0A003%2C%20Khan%2C%20*****%2C%20%5BApprove%5D%28approve_rating%29%20%20%5BDiscard%5D%28discard_rating%29%0A010%2C%20Jim%2C%20*%2C%20%5BApprove%5D%28approve_rating%29%20%20%5BDiscard%5D%28discard_rating%29%0A012%2C%20Asterix%2C%20**%2C%20%5BApprove%5D%28approve_rating%29%20%20%5BDiscard%5D%28discard_rating%29%0A015%2C%20John%2C%20***%2C%20%5BApprove%5D%28approve_rating%29%20%20%5BDiscard%5D%28discard_rating%29%0A%7B15C%2C%2025C%2C%2035C%2C%2030C%7D</text>
+        <value>19</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="214" y="213" w="71" h="30" measuredW="64" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>admin%26bm%3Badmin.bmml%26bm%3Badmin.bmml%26bm%3Badmin.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2235%2C107%2C106%2C137%22%20href%3D%22admin.bmml%22%20alt%3D%22admin%22%20id%3D%223%22/%3E</map>
+        <size>16</size>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="400" y="214" w="-1" h="-1" measuredW="152" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Pending%20Ratings</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

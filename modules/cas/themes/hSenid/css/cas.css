@@ -1,0 +1,448 @@
+/*main css*/
+
+.maincontent {
+    width: 998px;
+    margin: 0 auto;
+    font-family: -webkit-pictograph, sans-serif;
+    position: relative;
+}
+
+.topnav {
+    background-image: url(../images/tophead2.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    height: 85px;
+    width: 998px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+
+}
+
+
+.logo {
+    float: left;
+    width: 200px;
+    margin-top: 18px;
+    margin-left: 15px;
+
+}
+
+.logo img {
+    float: left;
+    margin-left: 10px;
+}
+
+.logo img:first-child {
+    float: left;
+    margin-top: 10px;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+#wrapper {
+    width: 996px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+
+.footer {
+    height: 40px;
+    width: 998px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    color: #3A3D47;
+    text-align: center;
+    background-position: bottom;
+    background-image: url(../images/footerbg2.jpg);
+    background-repeat: no-repeat;
+    padding-top: 18px;
+    float: left;
+    clear: both;
+    padding-bottom: 2px;
+    margin-top: 3px;
+}
+
+.footer a {
+    color: #f2af54;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #999999;
+}
+
+.button {
+    border-radius:5px;
+    background-image: url(../images/buttonbg2.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #eb7510;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    cursor:pointer;
+    border-color: #ebc91f;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#login-window {
+    background-image: url(../images/tablehead1.jpg);
+    background-repeat: repeat-x;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    padding: 0px 30px 30px 30px;
+    width: 400px;
+}
+
+#login-window h2 {
+    color: #FFFFFF;
+    margin-left: 0px;
+}
+
+/*input_button[type="image"]{
+    margin-left: 53px;
+    text-align: center;
+}*/
+
+form .clearfix {
+    margin-bottom: 10px;
+    zoom: 1;
+}
+
+form .clearfix:before, form .clearfix:after {
+    display: table;
+    content: "";
+    zoom: 1;
+}
+
+form .clearfix:after {
+    clear: both;
+}
+
+form .input {
+    margin-left: 150px;
+}
+
+.input_button {
+    margin-left: 200px;
+    text-align: center;
+}
+
+.casLoginButton {
+    margin-left: 190px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #F37110;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+label{
+    padding-top: 6px;
+    font-size: 13px;
+    line-height: 18px;
+    float: left;
+    width: 190px;
+    text-align: left;
+    color: #404040;
+    font-weight:bold;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#msg .errors {
+    border: 1px dotted #BB0000;
+    color: #BB0000;
+    padding-left: 100px;
+    padding-top: 220px;
+    background: url(../images/error.png) no-repeat 20px center;
+/**************************************************************************************************************************/
+
+#header {
+    float: left;
+    width: 996px;
+    padding-top: 6px;
+    position: relative;
+}
+
+.clearfix_new {
+    margin-top:20px;
+    margin-bottom:10px;
+    zoom: 1;
+}
+
+.container.container {
+    width: 770px;
+    height: auto;
+    float:left;
+}
+
+
+.clearfix_new {
+    margin-top:20px;
+    margin-bottom:10px;
+    zoom: 1;
+}
+
+.welcome_text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:left;
+    padding-top:35px;
+    padding-bottom:10px;
+    padding-left:20px;
+    position:absolute;
+}
+
+.list_content {
+    list-style-type: none;
+    margin: 0 0 0 0px;
+    padding:0 0 0 0px;
+    width: 400px;
+    text-decoration:none;
+    text-align:left
+}
+
+.content_text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.text_lable {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.text_box {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:left;
+    width:200px;
+}
+
+.dropdown_box {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:left;
+    border-style:groove;
+    width:200px;
+}
+
+.dropdown_box_small {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:left;
+    border-style:groove;
+    width:65px;
+}
+
+
+.h1_colour {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#990000;
+    text-align:left;
+    border-bottom: 1px solid #efefef;
+}
+
+.h2_colour {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#990000;
+    text-align:left;
+}
+
+.h1_black {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:left;
+    border-bottom: 1px solid #efefef;
+}
+
+.h2_black {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:left;
+}
+
+.h2_colour_underline {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#990000;
+    text-align:left;
+    border-bottom: 1px solid #efefef;
+}
+
+.h2_black_underline {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:left;
+    border-bottom: 1px solid #efefef;
+}
+
+
+.h2_black_seperator {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:left;
+    border-bottom:1px dashed #CCCCCC;
+}
+
+.h2_colour_seperator {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#990000;
+    text-align:left;
+    border-bottom:1px dashed #CC9999;
+}
+
+.table_content {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:left;
+    vertical-align:top;
+}
+
+.report_table_header {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    vertical-align:middle;
+    height:20px;
+}
+
+.report_table_content {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:normal;
+    color:#1B1B1B;
+    text-align:center;
+    vertical-align:middle;
+    height:20px;
+}
+
+.download_link {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:underline;
+    color:#434F6D;
+}
+
+.download_link:hover {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#990000;
+}
+
+.login_description {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:left;
+}
+
+.error_message {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#FF0000;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.acceptence_message {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#009900;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.message_text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    color:#1B1B1B;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.table-cell {
+    padding-top: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    text-align: left;
+    width: 139px;
+}
+.table-cell-2 {
+    padding-top: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 100px;
+}
+/*Template designed by Sachi Wickramage. Copyright(C)2008-2010 hSenid Software International. All rights reserved.*/

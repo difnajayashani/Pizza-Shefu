@@ -1,0 +1,44 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="154" measuredH="86" mockupW="93" mockupH="36">
+  <controls>
+    <control controlID="1" controlTypeID="__group__" x="61" y="50" w="39" h="36" measuredW="39" measuredH="36" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-badge-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="39" h="36" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>16750848</borderColor>
+            <color>15110456</color>
+            <href>shopping_cart_modify_popup%26bm%3Bshopping_cart_modify_popup.bmml%26bm%3Bshopping_cart_modify_popup.bmml%26bm%3Bshopping_cart_modify_popup.bmml</href>
+            <icon>pencil-square-o%7Csmall</icon>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%220%2C0%2C39%2C36%22%20href%3D%22shopping_cart_modify_popup.bmml%22%20alt%3D%22shopping_cart_modify_popup%22%20id%3D%220%22/%3E</map>
+            <shape>circle</shape>
+            <size>10</size>
+            <text/>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2" controlTypeID="__group__" x="118" y="52" w="36" h="33" measuredW="36" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-badge-danger</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="36" h="33" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>13576743</borderColor>
+            <color>13576743</color>
+            <href>shopping_cart_remove_item%26bm%3Bshopping_cart_remove_item.bmml%26bm%3Bshopping_cart_remove_item.bmml%26bm%3Bshopping_cart_remove_item.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2257%2C2%2C93%2C35%22%20href%3D%22shopping_cart_remove_item.bmml%22%20alt%3D%22shopping_cart_remove_item%22%20id%3D%220%22/%3E</map>
+            <shape>circle</shape>
+            <size>24</size>
+            <text>X</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

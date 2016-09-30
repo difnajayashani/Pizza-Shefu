@@ -1,0 +1,180 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../images/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.container{
+    width:60% ;
+}
+
+
+.panel-default > .panel-heading {
+    background-color: rgba(255, 220, 172, 0.48);
+    height: 70px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+
+}
+
+.panel-title{
+    font-size: 20px;
+}
+.form-box {
+    margin-top: 10px;
+    width: 60%;
+}
+.main-panel-heading{
+    padding: 20px 0 20px 0;
+}
+
+.form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    /*background-color: rgba(255, 220, 172, 0.48);*/
+    -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+
+#panel-heading-title {
+
+    width: 75%;
+    /*float: left;*/
+>>>>>>> Stashed changes
+    font-size: 20px;
+text-align: center;
+}
+.form-bottom {
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+
+.form-bottom form button.btn {
+    width: 150px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.brand,.address-bar {
+    display: none;
+}
+
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: #fff;
+    }
+
+     .navbar-default {
+        border: none;
+        background: transparent;
+    }
+
+    .nav>li>a {
+        padding: 25px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: 20%;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+ fieldset.scheduler-border {
+     border: 1px groove #ddd !important;
+     padding: 0 1.4em 1.4em 1.4em !important;
+     margin: 0 0 1.5em 0 !important;
+     -webkit-box-shadow:  0px 0px 0px 0px #000;
+     box-shadow:  0px 0px 0px 0px #000;
+ }
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+
+
+

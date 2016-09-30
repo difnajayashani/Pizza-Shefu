@@ -1,0 +1,25 @@
+.categoryField {
+    width: 80%;
+    top: 2%;
+    left: 10%;
+    position: absolute;
+
+}
+
+label {
+    /*color: white;*/
+    font-size: 17px
+}
+
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}

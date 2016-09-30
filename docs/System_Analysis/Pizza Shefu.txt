@@ -1,0 +1,54 @@
+**Pizza Shefu**
+	Feedback
+		Hot lines
+		Contact Us
+		Review and ratings  
+	Login:
+		Open Access
+		Guest Access
+		User Login
+	Selections
+		Packages
+			Business Packages
+			Party Packages
+			Kids Packages
+		Pizza
+			Pan and Other Crusts
+			Big Pizza
+			Italiano
+		Pasta and Sides
+			Rice
+			Appertizer
+			Pasta
+			Desserts
+			Beverages
+		Promos
+			Seasonal
+			Occasional  
+			Loyalty Promos
+	Events:green_cross:
+		Occasional Events
+		Contest
+		Seasonal Events
+	Payment
+		Online
+		Pay on delivery
+			Cash 
+			Cards
+	Ordering
+		Online Purchasing 
+		On call
+	Billing with service Charges
+		Discounted 
+			Coupons
+			Seasonal discounts
+		Without discount 
+	News Alert:green_cross:
+		Registered Users
+		Subcriptions
+	Users
+		Guest User
+		Registered Users
+	Delivery
+		Pick up
+		Door step

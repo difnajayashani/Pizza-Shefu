@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:beans xmlns:b="http://www.springframework.org/schema/beans"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.springframework.org/schema/security"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans
+              http://www.springframework.org/schema/beans/spring-beans.xsd
+           ">
+
+
+    <!--org.springframework.validation.beanvalidation support classes for integrating a JSR-303 Bean Validation provider
+    (such as Hibernate Validator) into a Spring ApplicationContext
+
+    LocalValidatorFactoryBean is the central class for javax.validation (JSR-303) setup in a Spring application context:
+     It bootstraps a javax.validation.ValidationFactory and exposes it through the Spring Validator interface
+     as well as through the JSR-303 Validator interface and the ValidatorFactory interface itself.-->
+    <b:bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
+
+</b:beans>

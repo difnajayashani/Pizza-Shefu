@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="reportLayout" template="/WEB-INF/views/tiles/reportLayout.jsp">
+        <put-attribute name="title" value="Rewards"/>
+        <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp"/>
+        <put-attribute name="container" value="/WEB-INF/views/tiles/defaultContainer.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp"/>
+    </definition>
+
+    <definition name="welcome" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/welcome.jsp"/>
+    </definition>
+
+    <definition name="success" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/success.jsp"/>
+    </definition>
+
+    <definition name="error" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/error_pages/error.jsp"/>
+    </definition>
+
+    <definition name="404" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/error_pages/404.jsp"/>
+    </definition>
+
+    <definition name="500" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/error_pages/500.jsp"/>
+    </definition>
+
+    <definition name="sessionNotFound" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/error_pages/sessionNotFound.jsp"/>
+    </definition>
+
+   <!-- <definition name="reports/subscriberView" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/subscribers/subscriberView.jspx"/>
+    </definition>
+
+    <definition name="reports/addNewSubscribers" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/subscribers/addNewSubscribers.jspx"/>
+    </definition>
+
+    <definition name="reports/smsNotification" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/notification/sms.jspx"/>
+    </definition>
+
+    <definition name="reports/customerCare" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/customerCare/customerCareMain.jspx"/>
+    </definition>
+
+    <definition name="reports/campaignWinners" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/campaignWinners/cwCampaign.jspx"/>
+    </definition>
+
+    <definition name="reports/campaignWinners/cycles" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/campaignWinners/cwCycle.jspx"/>
+    </definition>
+
+    <definition name="reports/campaignWinners/subscribers" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/campaignWinners/cwSubscriber.jspx"/>
+    </definition>
+
+    <definition name="reports/pinUsage" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/pinUsage/pinUsageView.jspx"/>
+    </definition>
+
+    <definition name="reports/customerCareView" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/customerCareView/customerCareViewMain.jspx"/>
+    </definition>
+    
+    <definition name="reports/adminReports" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/adminReports/adminReportMain.jspx"/>
+    </definition>
+
+    <definition name="reports/adminReports/firstTab" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/adminReports/adminReportMain.jspx"/>
+    </definition>
+
+    <definition name="reports/adminReports/secondTab" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/adminReports/adminReportMain.jspx"/>
+    </definition>
+
+    <definition name="reports/adminReports/thirdTab" extends="reportLayout">
+        <put-attribute name="container" value="/WEB-INF/views/reports/adminReports/adminReportMain.jspx"/>
+    </definition>-->
+
+</tiles-definitions>

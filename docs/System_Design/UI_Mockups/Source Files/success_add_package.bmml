@@ -1,0 +1,74 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="959" measuredH="444" mockupW="651" mockupH="388">
+  <controls>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::TitleWindow" x="308" y="56" w="427" h="213" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <close>true</close>
+        <dragger>false</dragger>
+        <minimize>false</minimize>
+        <text>Add%20Item%20Success</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Paragraph" x="404" y="124" w="316" h="54" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>The%20*%7Bcolor%3Ablue%7D%20Package%20PKG12%7Bcolor%7D*%20is%20successfully%20added%20to%20the%20system%20%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="__group__" x="337" y="124" w="39" h="36" measuredW="39" measuredH="36" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>bs-badge-success</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="39" h="36" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="154">
+          <controlProperties>
+            <bold>true</bold>
+            <borderColor>16750848</borderColor>
+            <color>15110456</color>
+            <icon>pencil-square-o%7Csmall</icon>
+            <shape>circle</shape>
+            <size>10</size>
+            <text/>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Alert" x="404" y="314" w="307" h="130" measuredW="200" measuredH="133" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>add_new_package%26bm%3Badd_new_package.bmml%26bm%3Badd_new_package.bmml%26bm%3Badd_new_package.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2297%2C350%2C402%2C387%22%20href%3D%22add_new_package.bmml%22%20alt%3D%22add_new_package%22%20id%3D%22155%22/%3E</map>
+        <text>*Error%20occured*%20%0A*The%20%7Bcolor%3Ared%7DPackage%20PKG12%7Bcolor%7D%20is%20not%20added%20%21*%0AOk</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Icon" x="421" y="335" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <icon>exclamation-circle%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::IconLabel" x="557" y="194" w="-1" h="-1" measuredW="61" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>admin%26bm%3Badmin.bmml%26bm%3Badmin.bmml%26bm%3Badmin.bmml</href>
+        <icon>home%7Csmall</icon>
+        <labelPosition>right</labelPosition>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22249%2C138%2C310%2C162%22%20href%3D%22admin.bmml%22%20alt%3D%22admin%22%20id%3D%22157%22/%3E</map>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::IconLabel" x="389" y="194" w="-1" h="-1" measuredW="56" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>add_new_package%26bm%3Badd_new_package.bmml%26bm%3Badd_new_package.bmml%26bm%3Badd_new_package.bmml</href>
+        <icon>chevron-circle-left%7Csmall</icon>
+        <labelPosition>right</labelPosition>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2281%2C138%2C137%2C162%22%20href%3D%22add_new_package.bmml%22%20alt%3D%22add_new_package%22%20id%3D%22158%22/%3E</map>
+        <text>Back</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::StickyNote" x="751" y="162" w="208" h="67" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>These%20are%20pop-ups</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

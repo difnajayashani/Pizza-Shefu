@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="response400" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="400"/>
+        <property name="errorMessage" value="HTTP_BAD_REQUEST"/>
+        <property name="description" value="incorrect request. make sure the data sent are correct."/>
+    </bean>
+
+    <bean id="response401" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="unauthorized"/>
+        <property name="errorCode" value="401"/>
+        <property name="errorMessage" value="HTTP_UNAUTHORIZED"/>
+        <property name="description" value="credentials provided are not authorized."/>
+    </bean>
+
+    <bean id="response404" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="404"/>
+        <property name="errorMessage" value="HTTP_NOT_FOUND"/>
+        <property name="description" value="make sure the url is correct, check the passed parameters and try again."/>
+    </bean>
+
+    <bean id="response405" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="405"/>
+        <property name="errorMessage" value="HTTP_METHOD_NOT_ALLOWED"/>
+        <property name="description"
+                  value="wrong http method used. use the proper http method as described in the documentation."/>
+    </bean>
+
+    <bean id="response408" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="408"/>
+        <property name="errorMessage" value="HTTP_REQUEST_TIMEOUT"/>
+        <property name="description" value="the request you sent takes longer than the server was prepared to wait."/>
+    </bean>
+
+    <bean id="response409" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="409"/>
+        <property name="errorMessage" value="HTTP_CONFLICT"/>
+        <property name="description"
+                  value="request could not be completed due to a conflict with the current state of the target resource. try sending the request later."/>
+    </bean>
+
+    <bean id="response414" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="414"/>
+        <property name="errorMessage" value="HTTP_REQUEST_URI_TOO_LONG"/>
+        <property name="description"
+                  value="server is refusing to service the request because the request is longer than the server is willing to interpret."/>
+    </bean>
+
+    <bean id="response415" class="hsl.devspace.app.coreserver.model.ErrorMessage">
+        <property name="status" value="error"/>
+        <property name="errorCode" value="415"/>
+        <property name="errorMessage" value="HTTP_UNSUPPORTED_MEDIA_TYPE"/>
+        <property name="description"
+                  value="payload is in a format not supported by this method on the target resource."/>
+    </bean>
+</beans>

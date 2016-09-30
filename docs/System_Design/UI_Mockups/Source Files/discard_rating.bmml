@@ -1,0 +1,72 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="735" measuredH="489" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="285" y="89" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Discard%20Rating%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="438" y="182" w="-1" h="-1" measuredW="157" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Are%20you%20sure%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="412" y="244" w="193" h="90" measuredW="193" measuredH="90" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="4" controlTypeID="__group__" x="12" y="0" w="181" h="90" measuredW="181" measuredH="90" zOrder="0" locked="false" isInGroup="7">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="77" y="23" w="-1" h="-1" measuredW="31" measuredH="21" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <bold>true</bold>
+                <italic>false</italic>
+                <text>*****</text>
+                <underline>true</underline>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="85" y="48" w="15" h="-1" measuredW="15" measuredH="21" zOrder="2" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>By</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="79" y="69" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="3" locked="false" isInGroup="4">
+              <controlProperties>
+                <bold>true</bold>
+                <italic>false</italic>
+                <text>Tom</text>
+                <underline>true</underline>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="__group__" x="0" y="0" w="181" h="21" measuredW="181" measuredH="21" zOrder="0" locked="false" isInGroup="4">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="0" locked="false" isInGroup="4">
+                  <controlProperties>
+                    <text>You%20sre%20about%20to%20discard%20rating</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="387" y="367" w="97" h="33" measuredW="69" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <href>discard_rating_succeed%26bm%3Bdiscard_rating_succeed.bmml%26bm%3Bdiscard_rating_succeed.bmml%26bm%3Bdiscard_rating_succeed.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22102%2C278%2C199%2C311%22%20href%3D%22discard_rating_succeed.bmml%22%20alt%3D%22discard_rating_succeed%22%20id%3D%228%22/%3E</map>
+        <text>Discard</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="562" y="365" w="77" h="36" measuredW="53" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <href>rating_management%26bm%3Brating_management.bmml%26bm%3Brating_management.bmml%26bm%3Brating_management.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22277%2C276%2C354%2C312%22%20href%3D%22rating_management.bmml%22%20alt%3D%22rating_management%22%20id%3D%229%22/%3E</map>
+        <text>Back</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

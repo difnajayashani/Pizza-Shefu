@@ -1,0 +1,70 @@
+
+#viewuser_box{
+    width: 90%;
+}
+
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    /*padding: 0 1.4em 1.4em 1.4em !important;*/
+    padding: 0 5px 0 5px;
+    margin: 0 0 1.5em 0 !important;
+/*    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;*/
+}
+legend.scheduler-border {
+    width: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    /*text-align: left;*/
+    padding: 0px 10px;
+    border-bottom: none;
+}
+
+#checkboxDiv {
+    width: 70%;
+}
+
+/*tooast message styles*/
+.toast-message {
+    left: 0;
+    position: fixed;
+    top: 72vh;
+    width: 100%;
+    z-index: 999;
+}
+#toastmessageouter {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    color: #fff;
+    display: table;
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 16px;
+    position: relative;
+    text-align: center;
+}
+.success-toast {
+    background: #5cb85c none repeat scroll 0 0 !important;
+    border: 2px solid #4cae4c;
+}
+.error-toast {
+    background: #d9534f none repeat scroll 0 0 !important;
+    border: 2px solid #d43f3a;
+}
+#closetoast {
+    background: gray none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: context-menu;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    padding: 4px 8px;
+}
+
+.deleteuser-modal-header-style{
+    color: #e7ce98;
+    background: #045406;
+    font-weight: bolder;
+    font-size: 20px;
+}

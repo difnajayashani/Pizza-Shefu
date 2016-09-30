@@ -1,0 +1,41 @@
+[
+  {
+    "id": 001,
+    "name": "Pizza",
+    "description": "The ever famous Butter Masala Chicken together with a layer of cream cheese, fresh oinions, coriander, ginger and garlic, blanketed with a layer of Mozzarella cheese "
+  },
+  {
+    "id": 002,
+    "name": "Pasta",
+    "description": "Freshly cooked pasta with prawns, vegetables & sliced mushrooms baked with a white cream sauce and mozzarella cheese "
+  },
+  {
+    "id": 003,
+    "name": "Beverage",
+    "description": "Freshly cooked pasta with prawns, vegetables & sliced mushrooms baked with a white cream sauce and mozzarella cheese "
+  },
+  {
+    "id": 004,
+    "name": "Topping",
+    "description": "Freshly cooked pasta with prawns, vegetables & sliced mushrooms baked with a white cream sauce and mozzarella cheese "
+  },
+  {
+    "id": 005,
+    "name": "Salads",
+    "description": "Freshly cooked pasta with prawns, vegetables & sliced mushrooms baked with a white cream sauce and mozzarella cheese "
+  },
+  {
+    "id": 006,
+    "name": "Desserts",
+    "description": "Freshly cooked pasta with prawns, vegetables & sliced mushrooms baked with a white cream sauce and mozzarella cheese "
+  }
+]
+
+[
+  {"id": 001, "name": "CreateNewDoc()", "name": "CreateNewDoc()"},
+  {"id": 002, "name": "OpenDoc()"}, "name": "CreateNewDoc()"
+  {"id": 003, "name": "CloseDoc()"}, "name": "CreateNewDoc()"
+  {"id": 004, "name": "OpenDoc()"}, "name": "CreateNewDoc()"
+  {"id": 005, "name": "OpenDoc()"}, "name": "CreateNewDoc()"
+  {"id": 006, "name": "OpenDoc()"}, "name": "CreateNewDoc()"
+]

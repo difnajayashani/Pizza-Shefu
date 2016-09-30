@@ -1,0 +1,64 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="959" measuredH="395" mockupW="642" mockupH="339">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TitleWindow" x="317" y="56" w="362" h="189" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <close>true</close>
+        <dragger>false</dragger>
+        <minimize>false</minimize>
+        <text>*Delete%20Package%20Success*</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="343" y="124" w="34" h="31" measuredW="34" measuredH="31" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2226%2C68%2C60%2C99%22%20href%3D%22shopping_cart_modify_popup.bmml%22%20alt%3D%22shopping_cart_modify_popup%22%20id%3D%220%22/%3E</map>
+        <override controlID="0" x="0" y="0" w="34" h="31">
+          <icon>check-square-o%7Cxsmall</icon>
+          <text/>
+        </override>
+        <src>./assets/symbols.bmml#bs-badge-success</src>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="404" y="131" w="275" h="26" measuredW="275" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>The%20*%7Bcolor%3Ablue%7DPackage%20PKG12%7Bcolor%7D*%20is%20deleted%20%20%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Alert" x="377" y="267" w="264" h="128" measuredW="200" measuredH="133" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>delete_package%26bm%3Bdelete_package.bmml%26bm%3Bdelete_package.bmml%26bm%3Bdelete_package.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2261%2C301%2C323%2C338%22%20href%3D%22delete_package.bmml%22%20alt%3D%22delete_package%22%20id%3D%225%22/%3E</map>
+        <text>*Error%20occured*%20%0A*Package%20PKG12%20can%20not%20be%20deleted%20%21*%0AOK</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="397" y="278" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <icon>exclamation-circle%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::IconLabel" x="526" y="177" w="-1" h="-1" measuredW="61" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>admin%26bm%3Badmin.bmml%26bm%3Badmin.bmml%26bm%3Badmin.bmml</href>
+        <icon>home%7Csmall</icon>
+        <labelPosition>right</labelPosition>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22209%2C121%2C270%2C145%22%20href%3D%22admin.bmml%22%20alt%3D%22admin%22%20id%3D%227%22/%3E</map>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::IconLabel" x="389" y="177" w="-1" h="-1" measuredW="56" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>delete_package%26bm%3Bdelete_package.bmml%26bm%3Bdelete_package.bmml%26bm%3Bdelete_package.bmml</href>
+        <icon>chevron-circle-left%7Csmall</icon>
+        <labelPosition>right</labelPosition>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2272%2C121%2C128%2C145%22%20href%3D%22delete_package.bmml%22%20alt%3D%22delete_package%22%20id%3D%228%22/%3E</map>
+        <text>Back</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::StickyNote" x="751" y="162" w="208" h="67" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>These%20are%20pop-ups</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

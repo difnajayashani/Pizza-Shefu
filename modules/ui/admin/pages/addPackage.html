@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <title>Add new package</title>
+
+    <!--include common CSS, fonts and js-->
+    <link rel="import" href="adminTop.html">
+
+    <link href="../css/itemMgt.css" rel="stylesheet">
+    <script src="../js/jquery.toaster.js"></script>
+    <script src="../js/itemMgt.js"></script>
+    <script src="../js/myAlerts.js"></script>
+</head>
+<body>
+
+
+<object width="100%" data="header.html"></object>
+
+<div class="brand">
+    <div style="position: relative; left: -50%;">
+        Add New Package
+    </div>
+</div>
+<br>
+
+<div class="breadcrumbPosition">
+    <div style="position: relative; left: -50%;">
+        <ul class="breadcrumb breadcrumb-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Package Management</a></li>
+            <li class="active"><a href="#">Add New Package</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="form-box" id="add-pkg-form-box">
+    <div class="panel panel-default">
+        <div class="panel-heading common-form-headings">
+            <h3 class="default-panel-headings">Add New Package</h3>
+        </div>
+        <div class="panel-body">
+
+            <form class="form-horizontal" role="form" id="frmAddPkg">
+                <fieldset class="scheduler-border">
+                    <legend class="scheduler-border">(*) Fields are read only</legend>
+
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-7">
+                                <label class="col-xs-5 control-label">
+                                    Package ID : &nbsp; *
+                                </label>
+
+                                <div class="col-xs-7">
+                                    <input class="form-control" type="text" id="txtAddPkgId" readonly>
+                                </div>
+                            </div>
+                            <div class="col-xs-5">
+                                <label class="col-xs-5 control-label">
+                                    Price :
+                                </label>
+
+                                <div class="col-xs-7" align="right">
+                                    <input class="form-control price" type="text" id="txtAddPkgPrice">
+                                    <span id="pkgPriceErr" class="input-group-error" style="float: left"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-7">
+                                <label class="col-xs-5 control-label">
+                                    Name :
+                                </label>
+
+                                <div class="col-xs-7">
+                                    <input class="form-control" type="text" id="txtAddPkgName">
+                                </div>
+                                <span id="pkgNmErr" class="input-group-error"> </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <label class="col-xs-3 control-label">
+                                Package Detail :
+                            </label>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-xs-2"></div>
+
+                            <div class="col-xs-10">
+
+                                <div class="row item-tbl-row item-tbl-hdr">
+                                    <div class="col-xs-3">
+                                        <strong>Content</strong>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <strong>Name</strong>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <strong>Qty</strong>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <strong>Status</strong>
+                                    </div>
+                                </div>
+
+                                <div class="row item-tbl-row">
+                                    <div class="col-xs-3">
+                                        <label class="checkbox-inline"><input type="checkbox" value="" class="checkbox">Pizza</label>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="text" value="" class="form-control price">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input class="qty-spinner" type="number" value="0">
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <button type="button" value="" class="btn btn-success btnAddItmPkg"
+                                                id="btnAddPkgPizza">
+                                            <span class="glyphicon glyphicon-plus"></span>Add
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row item-tbl-row">
+                                    <div class="col-xs-3">
+                                        <label class="checkbox-inline"><input type="checkbox" value="" class="checkbox">Pasta/Appetizer</label>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="text" value="" class="form-control price">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input class="qty-spinner" type="number" value="0">
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <button type="button" value="" class="btn btn-success btnAddItmPkg"
+                                                id="btnAddPkgPasta">
+                                            <span class="glyphicon glyphicon-plus"></span>Add
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row item-tbl-row">
+                                    <div class="col-xs-3">
+                                        <label class="checkbox-inline"><input type="checkbox" value="" class="checkbox">Bevarage</label>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="text" value="" class="form-control price">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input class="qty-spinner" type="number" value="0">
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <button type="button" value="" class="btn btn-success btnAddItmPkg"
+                                                id="btnAddPkgBvrg">
+                                            <span class="glyphicon glyphicon-plus"></span>Add
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row item-tbl-row">
+                                    <div class="col-xs-3">
+                                        <label class="checkbox-inline"><input type="checkbox" value="" class="checkbox">Salad</label>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="text" value="" class="form-control price">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input class="qty-spinner" type="number" value="0">
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <button type="button" value="" class="btn btn-success btnAddItmPkg"
+                                                id="btnAddPkgSalad">
+                                            <span class="glyphicon glyphicon-plus"></span>Add
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="row item-tbl-row">
+                                    <div class="col-xs-3">
+                                        <label class="checkbox-inline"><input type="checkbox" value="" class="checkbox">Dessert</label>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="text" value="" class="form-control price">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input class="qty-spinner" type="number" value="0">
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <button type="button" value="" class="btn btn-success btnAddItmPkg"
+                                                id="btnAddPkgDssrt">
+                                            <span class="glyphicon glyphicon-plus"></span>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <label class="col-xs-3 control-label">
+                                Add Image/s :
+                            </label>
+
+                            <div class="col-xs-5">
+                               <!-- <button type="button" class="btn btn-success" id="btnupldPkgImg"><span
+                                        class="glyphicon glyphicon-open"></span> Browse to Upload
+                                    Images
+                                </button>--><input type="file" value="fg">
+                                <span id="pkgImgErr" class="input-group-error"> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="list-group row" style="margin:auto; width:50%; border:2px solid black; padding: 10px;">
+                        <label><h4>Hidden field</h4></label><br>
+                        <label id="newPkgName"><strong>Pacakage Name</strong></label> <br>
+                        <ul class="list-group">
+                            <li class="list-group-item">Pkg item1
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                            </li>
+                            <li class="list-group-item">Pkg item2
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                            </li>
+                            <li class="list-group-item">Pkg item3
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                            </li>
+                            <li class="list-group-item">Price
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                            </li>
+                            <li class="list-group-item">Images
+                                <span class="badge">
+                                  <div class="itemList">
+                                    <span class="glyphicon glyphicon-remove">
+                                    </span> <a href="">Remove</a>
+                                  </div>
+                                </span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <br><br>
+
+                    <div style="text-align: center; z-index: 50000; width: 50%; margin: auto;" id="toaster"></div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-xs-4">
+                        </div>
+                        <div class="col-xs-4" align="right">
+                            <button type="button" class="btn btn-success bckToHome" id="btnPkgCancel"><span
+                                    class="glyphicon glyphicon-chevron-left"></span> Back to home
+                            </button>
+                        </div>
+                        <div class="col-xs-4" align="left">
+                            <button type="button" class="btn btn-success btn-group-xs" id="btnAddNewPkg">Add
+                                Package
+                            </button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
